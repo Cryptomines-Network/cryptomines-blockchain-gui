@@ -22,7 +22,7 @@ jobs:
         uses: LloydMontgomeryGarmadon/actions/vault/login@main
         with:
           vault_url: ${{ secrets.VAULT_URL }}
-          role_name: github-chia-blockchain-gui
+          role_name: github-cryptomines-blockchain-gui
 
       - name: Get secrets from vault
         uses: hashicorp/vault-action@v2.7.3
