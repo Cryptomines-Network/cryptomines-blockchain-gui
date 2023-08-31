@@ -716,25 +716,25 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
           click: () => {
-            openExternal('https://github.com/Chia-Network/chia-blockchain/wiki');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/chia-blockchain/wiki');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
           click: () => {
-            openExternal('https://github.com/Chia-Network/chia-blockchain/wiki/FAQ');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/chia-blockchain/wiki/FAQ');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Release Notes' }),
           click: () => {
-            openExternal('https://github.com/Chia-Network/chia-blockchain/releases');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/chia-blockchain/releases');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
           click: () => {
-            openExternal('https://github.com/Chia-Network/chia-blockchain/blob/main/CONTRIBUTING.md');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/chia-blockchain/blob/main/CONTRIBUTING.md');
           },
         },
         {
@@ -743,7 +743,7 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
           click: () => {
-            openExternal('https://github.com/Chia-Network/chia-blockchain/issues');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/chia-blockchain/issues');
           },
         },
         {
