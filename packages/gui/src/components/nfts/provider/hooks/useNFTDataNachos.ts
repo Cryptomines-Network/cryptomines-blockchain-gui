@@ -9,7 +9,7 @@ import useNachoNFTs from '../../../../hooks/useNachoNFTs';
 import getNFTId from '../../../../util/getNFTId';
 import { getChangedEventName } from './useNFTDataOnDemand';
 
-const log = debug('chia-gui:NFTProvider:useMetadataData');
+const log = debug('cryptomines-gui:NFTProvider:useMetadataData');
 
 // warning: only used by NFTProvider
 export default function useNFTDataNachos() {

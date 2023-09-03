@@ -31,7 +31,7 @@ import { NFTOfferSummary } from './NFTOfferViewer';
 import OfferSummary from './OfferSummary';
 import { offerContainsAssetOfType } from './utils';
 
-const log = debug('chia-gui:offers');
+const log = debug('cryptomines-gui:offers');
 
 /* ========================================================================== */
 

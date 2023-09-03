@@ -8,7 +8,7 @@ import useCache from './useCache';
 import useNFT from './useNFT';
 import useNFTMetadata from './useNFTMetadata';
 
-const log = debug('chia-gui:useNFTVerifyHash');
+const log = debug('cryptomines-gui:useNFTVerifyHash');
 
 type PreviewState = {
   isVerified: boolean;

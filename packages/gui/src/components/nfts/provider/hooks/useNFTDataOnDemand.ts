@@ -11,7 +11,7 @@ import getNFTId from '../../../../util/getNFTId';
 import limit from '../../../../util/limit';
 import { launcherIdFromNFTId } from '../../../../util/nfts';
 
-const log = debug('chia-gui:NFTProvider:useMetadataData');
+const log = debug('cryptomines-gui:NFTProvider:useMetadataData');
 
 export function getChangedEventName(nftId: string) {
   return `nftChanged:${nftId}`;

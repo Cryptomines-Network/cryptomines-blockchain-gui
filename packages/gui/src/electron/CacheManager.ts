@@ -18,7 +18,7 @@ import getChecksum from './utils/getChecksum';
 import handleWithCustomErrors from './utils/handleWithCustomErrors';
 import sanitizeNumber from './utils/sanitizeNumber';
 
-const log = debug('chia-gui:CacheManager');
+const log = debug('cryptomines-gui:CacheManager');
 
 async function safeUnlink(filePath: string) {
   try {

@@ -17,7 +17,7 @@ import getNFTId from '../../../../util/getNFTId';
 import limit from '../../../../util/limit';
 import { getChangedEventName } from './useNFTDataOnDemand';
 
-const log = debug('chia-gui:useNFTData');
+const log = debug('cryptomines-gui:useNFTData');
 
 type UseNFTDataProps = {
   pageSize?: number;
