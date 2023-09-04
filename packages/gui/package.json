@@ -59,7 +59,7 @@
       "target": "dmg",
       "icon": "src/assets/img/chia.icns",
       "entitlements": "entitlements.mac.plist",
-      "provisioningProfile": "chiablockchain.provisionprofile",
+      "provisioningProfile": "cryptominesblockchain.provisionprofile",
       "darkModeSupport": true,
       "hardenedRuntime": true,
       "gatekeeperAssess": false

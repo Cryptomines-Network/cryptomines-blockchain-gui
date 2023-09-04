@@ -4,8 +4,8 @@ import { useState, useEffect, useCallback, useMemo } from 'react';
 import useWalletConnectPreferences from './useWalletConnectPreferences';
 
 const defaultMetadata = {
-  name: 'Chia Blockchain',
-  description: 'GUI for Chia Blockchain',
+  name: 'Cryptomines Blockchain',
+  description: 'GUI for Cryptomines Blockchain',
   url: 'https://www.chia.net',
   icons: ['https://www.chia.net/wp-content/uploads/2022/09/chia-logo.svg'],
 };

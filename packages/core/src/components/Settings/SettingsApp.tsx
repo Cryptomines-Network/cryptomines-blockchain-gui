@@ -56,7 +56,7 @@ export default function SettingsApp(props: SettingsAppProps) {
   async function handleOpenSendFeedbackURL(): Promise<void> {
     try {
       const { shell } = window as unknown as { shell: Shell };
-      await shell.openExternal('https://feedback.chia.net/lightwallet');
+      await shell.openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/discussions/new/choose');
     } catch (error: any) {
       showError(error);
     }
