@@ -1,4 +1,4 @@
-import { Form } from '@chia-network/core';
+import { Form } from '@cryptomines-network/core';
 import { Grid } from '@mui/material';
 import React, { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 import { useForm } from 'react-hook-form';

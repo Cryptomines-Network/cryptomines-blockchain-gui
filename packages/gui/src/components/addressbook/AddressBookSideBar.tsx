@@ -1,6 +1,6 @@
-import type { AddressContact } from '@chia-network/core';
-import { AddressBookContext, CardListItem, Color, Flex, LayoutDashboardSub, Tooltip } from '@chia-network/core';
-import { MyContacts as MyContactsIcon } from '@chia-network/icons';
+import type { AddressContact } from '@cryptomines-network/core';
+import { AddressBookContext, CardListItem, Color, Flex, LayoutDashboardSub, Tooltip } from '@cryptomines-network/core';
+import { MyContacts as MyContactsIcon } from '@cryptomines-network/icons';
 import { t, Trans } from '@lingui/macro';
 import { Add, Search as SearchIcon } from '@mui/icons-material';
 import { Divider, IconButton, InputBase, Typography, useTheme } from '@mui/material';

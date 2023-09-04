@@ -1,5 +1,5 @@
-import { useGetKeysQuery } from '@chia-network/api-react';
-import { ConfirmDialog, Flex, LoadingOverlay } from '@chia-network/core';
+import { useGetKeysQuery } from '@cryptomines-network/api-react';
+import { ConfirmDialog, Flex, LoadingOverlay } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Divider, Switch } from '@mui/material';
 import React, { type ReactNode, useState, useMemo } from 'react';

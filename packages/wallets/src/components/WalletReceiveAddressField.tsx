@@ -1,6 +1,6 @@
-import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@chia-network/api-react';
-import { Color, Flex, Loading, truncateValue, useColorModeValue } from '@chia-network/core';
-import { Reload } from '@chia-network/icons';
+import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@cryptomines-network/api-react';
+import { Color, Flex, Loading, truncateValue, useColorModeValue } from '@cryptomines-network/core';
+import { Reload } from '@cryptomines-network/icons';
 import { Trans } from '@lingui/macro';
 import { alpha, Button, IconButton, Tooltip, Typography } from '@mui/material';
 import React, { useState } from 'react';

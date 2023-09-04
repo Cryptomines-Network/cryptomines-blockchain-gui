@@ -7,7 +7,7 @@ import {
   Checkbox,
   TooltipIcon,
   Select,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import {
   Grid,

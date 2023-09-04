@@ -1,5 +1,5 @@
-import type { PlotNFT } from '@chia-network/api';
-import { useGetPlotNFTsQuery } from '@chia-network/api-react';
+import type { PlotNFT } from '@cryptomines-network/api';
+import { useGetPlotNFTsQuery } from '@cryptomines-network/api-react';
 import PlotNFTExternal from 'types/PlotNFTExternal';
 
 import useUnconfirmedPlotNFTs from './useUnconfirmedPlotNFTs';

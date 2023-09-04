@@ -1,10 +1,10 @@
-import { Flex, Form, TextField, ButtonLoading } from '@chia-network/core';
-import { ConnectCheckmark } from '@chia-network/icons';
+import { Flex, Form, TextField, ButtonLoading } from '@cryptomines-network/core';
+import { ConnectCheckmark } from '@cryptomines-network/icons';
 import {
   useClawbackDefaultTime,
   type ClawbackDefaultTimeInput,
   clawbackDefaultTimeDefaults,
-} from '@chia-network/wallets';
+} from '@cryptomines-network/wallets';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

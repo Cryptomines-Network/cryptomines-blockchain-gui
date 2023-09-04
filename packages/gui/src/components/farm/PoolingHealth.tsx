@@ -2,8 +2,8 @@ import {
   useGetPoolStateQuery,
   useGetPartialStatsOffsetQuery,
   useResetPartialStatsMutation,
-} from '@chia-network/api-react';
-import { Flex, StateIndicator, State, Tooltip } from '@chia-network/core';
+} from '@cryptomines-network/api-react';
+import { Flex, StateIndicator, State, Tooltip } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Paper, Typography, CircularProgress, Button } from '@mui/material';
 import React from 'react';

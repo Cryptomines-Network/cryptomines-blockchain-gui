@@ -1,8 +1,8 @@
-import { WalletType } from '@chia-network/api';
-import type { Wallet } from '@chia-network/api';
-import { useGetWalletsQuery } from '@chia-network/api-react';
-import { Flex, Loading, catToMojo, mojoToCATLocaleString } from '@chia-network/core';
-import { Tokens } from '@chia-network/icons';
+import { WalletType } from '@cryptomines-network/api';
+import type { Wallet } from '@cryptomines-network/api';
+import { useGetWalletsQuery } from '@cryptomines-network/api-react';
+import { Flex, Loading, catToMojo, mojoToCATLocaleString } from '@cryptomines-network/core';
+import { Tokens } from '@cryptomines-network/icons';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import React, { useMemo } from 'react';

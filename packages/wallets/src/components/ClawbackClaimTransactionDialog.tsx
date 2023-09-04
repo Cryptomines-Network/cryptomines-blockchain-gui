@@ -3,7 +3,7 @@ import {
   useSetAutoClaimMutation,
   useSpendClawbackCoinsMutation,
   useGetSyncStatusQuery,
-} from '@chia-network/api-react';
+} from '@cryptomines-network/api-react';
 import {
   AlertDialog,
   Button,
@@ -20,7 +20,7 @@ import {
   chiaToMojo,
   Checkbox,
   useOpenDialog,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Close as CloseIcon } from '@mui/icons-material';
 import {

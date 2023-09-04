@@ -1,5 +1,5 @@
-import { useResyncWalletMutation } from '@chia-network/api-react';
-import { AlertDialog, Button, DialogActions, useOpenDialog } from '@chia-network/core';
+import { useResyncWalletMutation } from '@cryptomines-network/api-react';
+import { AlertDialog, Button, DialogActions, useOpenDialog } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import React from 'react';

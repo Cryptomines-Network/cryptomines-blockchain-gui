@@ -1,5 +1,5 @@
-import { toBech32m, WalletType } from '@chia-network/api';
-import { mojoToChia, mojoToCAT } from '@chia-network/core';
+import { toBech32m, WalletType } from '@cryptomines-network/api';
+import { mojoToChia, mojoToCAT } from '@cryptomines-network/core';
 import BigNumber from 'bignumber.js';
 
 import OfferBuilderData from '../@types/OfferBuilderData';

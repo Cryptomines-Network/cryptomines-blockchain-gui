@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@chia-network/api';
-import { useTransferNFTMutation } from '@chia-network/api-react';
+import type { NFTInfo } from '@cryptomines-network/api';
+import { useTransferNFTMutation } from '@cryptomines-network/api-react';
 import {
   Button,
   ButtonLoading,
@@ -12,8 +12,8 @@ import {
   useOpenDialog,
   validAddress,
   useShowError,
-} from '@chia-network/core';
-import { AddressBookAutocomplete } from '@chia-network/wallets';
+} from '@cryptomines-network/core';
+import { AddressBookAutocomplete } from '@cryptomines-network/wallets';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import React from 'react';

@@ -1,4 +1,4 @@
-import type { PoolInfo } from '@chia-network/api';
+import type { PoolInfo } from '@cryptomines-network/api';
 
 export default async function getPoolInfo(poolUrl: string): PoolInfo {
   const url = `${poolUrl}/pool_info`;

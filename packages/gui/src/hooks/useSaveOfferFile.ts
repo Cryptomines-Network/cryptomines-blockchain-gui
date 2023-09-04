@@ -1,8 +1,8 @@
 import fs from 'fs';
 
-import { OfferTradeRecord } from '@chia-network/api';
-import { useGetOfferDataMutation } from '@chia-network/api-react';
-import { useShowSaveDialog } from '@chia-network/core';
+import { OfferTradeRecord } from '@cryptomines-network/api';
+import { useGetOfferDataMutation } from '@cryptomines-network/api-react';
+import { useShowSaveDialog } from '@cryptomines-network/core';
 
 import { suggestedFilenameForOffer } from '../components/offers/utils';
 import useAssetIdName from './useAssetIdName';

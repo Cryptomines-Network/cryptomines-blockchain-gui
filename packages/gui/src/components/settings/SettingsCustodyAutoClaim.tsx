@@ -1,6 +1,6 @@
-import { useGetAutoClaimQuery, useSetAutoClaimMutation } from '@chia-network/api-react';
-import { Flex, SettingsText, Form, ButtonLoading, Fee, chiaToMojo, mojoToChia } from '@chia-network/core';
-import { ConnectCheckmark } from '@chia-network/icons';
+import { useGetAutoClaimQuery, useSetAutoClaimMutation } from '@cryptomines-network/api-react';
+import { Flex, SettingsText, Form, ButtonLoading, Fee, chiaToMojo, mojoToChia } from '@cryptomines-network/core';
+import { ConnectCheckmark } from '@cryptomines-network/icons';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

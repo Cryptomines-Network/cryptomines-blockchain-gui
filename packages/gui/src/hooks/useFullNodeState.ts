@@ -1,5 +1,5 @@
-import { BlockchainState } from '@chia-network/api';
-import { useGetBlockchainStateQuery } from '@chia-network/api-react';
+import { BlockchainState } from '@cryptomines-network/api';
+import { useGetBlockchainStateQuery } from '@cryptomines-network/api-react';
 
 import FullNodeState from '../constants/FullNodeState';
 

@@ -2,7 +2,7 @@ import {
   useCreateNewWalletMutation,
   useGetCurrentAddressQuery,
   useGetWalletBalanceQuery,
-} from '@chia-network/api-react';
+} from '@cryptomines-network/api-react';
 import {
   ButtonLoading,
   EstimatedFee,
@@ -14,7 +14,7 @@ import {
   chiaToMojo,
   mojoToChiaLocaleString,
   useCurrencyCode,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans, t } from '@lingui/macro';
 import { Card, Typography } from '@mui/material';
 import React from 'react';

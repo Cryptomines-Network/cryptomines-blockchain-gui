@@ -1,5 +1,5 @@
-import * as coreLocales from '@chia-network/core/src/locales';
-import * as walletsLocales from '@chia-network/wallets/src/locales';
+import * as coreLocales from '@cryptomines-network/core/src/locales';
+import * as walletsLocales from '@cryptomines-network/wallets/src/locales';
 import { i18n } from '@lingui/core';
 import {
   ar,

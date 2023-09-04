@@ -1,5 +1,5 @@
 {
-  "name": "@chia-network/gui",
+  "name": "@cryptomines-network/gui",
   "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
   "description": "GUI for Cryptomines Blockchain",
   "license": "Apache-2.0",
@@ -144,11 +144,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@chia-network/api": "1.0.0",
-    "@chia-network/api-react": "1.0.0",
-    "@chia-network/core": "1.0.0",
-    "@chia-network/icons": "1.0.0",
-    "@chia-network/wallets": "1.0.0",
+    "@cryptomines-network/api": "1.0.0",
+    "@cryptomines-network/api-react": "1.0.0",
+    "@cryptomines-network/core": "1.0.0",
+    "@cryptomines-network/icons": "1.0.0",
+    "@cryptomines-network/wallets": "1.0.0",
     "@electron/remote": "2.0.1",
     "@lingui/core": "4.2.1",
     "@lingui/macro": "4.2.1",

@@ -1,7 +1,7 @@
-import { WalletType } from '@chia-network/api';
-import { useGetWalletBalanceQuery } from '@chia-network/api-react';
-import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@chia-network/core';
-import { useWallet } from '@chia-network/wallets';
+import { WalletType } from '@cryptomines-network/api';
+import { useGetWalletBalanceQuery } from '@cryptomines-network/api-react';
+import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@cryptomines-network/core';
+import { useWallet } from '@cryptomines-network/wallets';
 import { Trans } from '@lingui/macro';
 import React, { useMemo } from 'react';
 

@@ -1,12 +1,12 @@
-import { WalletType } from '@chia-network/api';
-import type { Wallet } from '@chia-network/api';
+import { WalletType } from '@cryptomines-network/api';
+import type { Wallet } from '@cryptomines-network/api';
 import {
   useGetWalletsQuery,
   useGetStrayCatsQuery,
   useGetCatListQuery,
   useAddCATTokenMutation,
-} from '@chia-network/api-react';
-import { useShowError } from '@chia-network/core';
+} from '@cryptomines-network/api-react';
+import { useShowError } from '@cryptomines-network/core';
 import { orderBy } from 'lodash';
 import { useMemo } from 'react';
 

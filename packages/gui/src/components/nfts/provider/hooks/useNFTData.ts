@@ -1,12 +1,12 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo, type Wallet } from '@chia-network/api';
+import { type NFTInfo, type Wallet } from '@cryptomines-network/api';
 import {
   useLazyGetNFTsCountQuery,
   useLazyGetNFTsQuery,
   useGetNFTWallets,
   useGetLoggedInFingerprintQuery,
-} from '@chia-network/api-react';
+} from '@cryptomines-network/api-react';
 import debug from 'debug';
 import { useState, useCallback, useEffect, useMemo, useRef } from 'react';
 

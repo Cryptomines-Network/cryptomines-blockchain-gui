@@ -1,4 +1,4 @@
-import { toBech32m, fromBech32m } from '@chia-network/api';
+import { toBech32m, fromBech32m } from '@cryptomines-network/api';
 
 import removeHexPrefix from './removeHexPrefix';
 

@@ -1,5 +1,5 @@
-import { usePrefs } from '@chia-network/api-react';
-import { ButtonLoading, Flex, Form, TextField, Tooltip } from '@chia-network/core';
+import { usePrefs } from '@cryptomines-network/api-react';
+import { ButtonLoading, Flex, Form, TextField, Tooltip } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { ButtonGroup, Chip, InputAdornment } from '@mui/material';
 import React from 'react';

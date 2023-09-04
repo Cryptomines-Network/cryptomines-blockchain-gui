@@ -3,7 +3,7 @@ import {
   useSendTransactionMutation,
   useFarmBlockMutation,
   useLocalStorage,
-} from '@chia-network/api-react';
+} from '@cryptomines-network/api-react';
 import {
   Amount,
   ButtonLoading,
@@ -19,7 +19,7 @@ import {
   useIsSimulator,
   TooltipIcon,
   Button,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans, t } from '@lingui/macro';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReportProblemOutlinedIcon from '@mui/icons-material/ReportProblemOutlined';
