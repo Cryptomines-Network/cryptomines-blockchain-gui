@@ -1,7 +1,7 @@
 {
   "name": "@chia-network/wallets",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia wallets Library",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
+  "description": "Cryptomines wallets Library",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"

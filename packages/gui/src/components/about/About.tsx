@@ -72,7 +72,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://cryptominesblockchain.pl';
 
 type Props = {
   version: string;
@@ -115,7 +115,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) {currentYear} Chia Network</div>
+        <div className="copyright">Copyright (c) {currentYear} Kopalnie Krypto</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -144,7 +144,7 @@ export default function About(props: Props) {
           )}
         </VersionsTable>
 
-        <BugReport href="https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/issues" target="_blank">
+        <BugReport href="https://github.com/Cryptomines-Network/cryptomines-blockchain/issues" target="_blank">
           Report an issue
         </BugReport>
         {'{{CSS}}'}

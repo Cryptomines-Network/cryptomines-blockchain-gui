@@ -1,9 +1,9 @@
 {
   "name": "@chia-network/gui",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "GUI for Chia Blockchain",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
+  "description": "GUI for Cryptomines Blockchain",
   "license": "Apache-2.0",
-  "productName": "Chia Blockchain",
+  "productName": "Cryptomines Blockchain",
   "homepage": "./",
   "main": "build/electron/main.js",
   "engines": {

@@ -1,8 +1,8 @@
 {
   "name": "@chia-network/api-react",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia API react store library",
-  "productName": "Chia Blockchain",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
+  "description": "Cryptomines API react store library",
+  "productName": "Cryptomines Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"
