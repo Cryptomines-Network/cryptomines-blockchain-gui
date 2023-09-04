@@ -732,12 +732,6 @@ function getMenuTemplate() {
           },
         },
         {
-          label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
-          click: () => {
-            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/blob/main/CONTRIBUTING.md');
-          },
-        },
-        {
           type: 'separator',
         },
         {
@@ -747,15 +741,9 @@ function getMenuTemplate() {
           },
         },
         {
-          label: i18n._(/* i18n */ { id: 'Chat on Discord' }),
-          click: () => {
-            openExternal('https://discord.gg/chia');
-          },
-        },
-        {
           label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
           click: () => {
-            openExternal('https://twitter.com/chia_project');
+            openExternal('https://twitter.com/KopalnieKrypto');
           },
         },
       ],
