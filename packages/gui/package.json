@@ -43,7 +43,7 @@
       "executableName": "Cryptomines"
     },
     "nsis": {
-      "artifactName": "ChiaSetup-${env.CRYPTOMINES_INSTALLER_VERSION}.exe",
+      "artifactName": "CryptominesSetup-${env.CRYPTOMINES_INSTALLER_VERSION}.exe",
       "oneClick": false,
       "deleteAppDataOnUninstall": true,
       "allowToChangeInstallationDirectory": true,
