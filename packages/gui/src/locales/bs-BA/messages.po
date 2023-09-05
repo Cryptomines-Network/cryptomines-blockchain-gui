@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
 "X-Crowdin-Project-ID: 1\n"
 "X-Crowdin-Language: bs\n"
-"X-Crowdin-File: /[Chia-Network.cryptomines-blockchain-gui] main/packages/gui/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Cryptomines-Network.cryptomines-blockchain-gui] main/packages/gui/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 1306\n"
 
 #: src/components/offers2/OfferBuilderImport.tsx:167
@@ -68,8 +68,8 @@ msgstr ""
 
 #: src/electron/main.tsx:1101
 #: src/electron/main.tsx:1188
-msgid "About Chia Blockchain"
-msgstr "O Chia Blockchain-u"
+msgid "About Cryptomines Blockchain"
+msgstr "O Cryptomines Blockchain-u"
 
 #: src/components/offers/NFTOfferViewer.tsx:638
 #: src/components/offers/OfferAcceptConfirmationDialog.tsx:21
@@ -351,8 +351,8 @@ msgid "Block VDF Iterations"
 msgstr "Blokiraj VDF ponavljanje"
 
 #: src/components/block/Block.jsx:250
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blokirajte na granicu na {0} u Chia blockchainu"
+msgid "Block at height {0} in the Cryptomines blockchain"
+msgstr "Blokirajte na granicu na {0} u Cryptomines blockchainu"
 
 #: src/components/block/Block.jsx:120
 msgid "Block with hash {headerHash}"
@@ -474,11 +474,11 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/components/settings/SettingsStartup.tsx:32
-msgid "Changes will take effect the next time Chia is started"
+msgid "Changes will take effect the next time Cryptomines is started"
 msgstr ""
 
 #: src/components/settings/SettingsDataLayer.tsx:54
-msgid "Changes will take effect the next time Chia is started."
+msgid "Changes will take effect the next time Cryptomines is started."
 msgstr ""
 
 #: src/electron/main.tsx:1080
@@ -500,19 +500,19 @@ msgid "Check Provenance on Spacescan.io"
 msgstr ""
 
 #: src/electron/main.tsx:1098
-msgid "Chia"
+msgid "Cryptomines"
 msgstr ""
 
 #: src/components/offers2/OfferBuilderXCHSection.tsx:76
-msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainable"
+msgid "Cryptomines ({currencyCode}) is a digital currency that is secure and sustainable"
 msgstr ""
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:114
-msgid "Chia Asset Tokens (CATs) are tokens built on top of KOP"
+msgid "Cryptomines Asset Tokens (CATs) are tokens built on top of KOP"
 msgstr ""
 
 #: src/electron/main.tsx:1047
-msgid "Chia Blockchain Wiki"
+msgid "Cryptomines Blockchain Wiki"
 msgstr ""
 
 #: src/components/app/AppSelectMode.tsx:145
@@ -748,7 +748,7 @@ msgid "Create a Plot NFT"
 msgstr ""
 
 #: src/components/offers/OfferManager.tsx:440
-msgid "Create a file that you can use to trade KOP, Chia Asset Tokens, or NFTs with no counter-party risk."
+msgid "Create a file that you can use to trade KOP, Cryptomines Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:75
@@ -838,7 +838,7 @@ msgid "DataLayer Services"
 msgstr ""
 
 #: src/components/settings/SettingsDataLayer.tsx:21
-msgid "DataLayer enables rich data to be stored on mirrored databases that can be verified using the Chia Blockchain."
+msgid "DataLayer enables rich data to be stored on mirrored databases that can be verified using the Cryptomines Blockchain."
 msgstr ""
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:31
@@ -877,7 +877,7 @@ msgid "Deleting key"
 msgstr ""
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:81
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Cryptomines Proof of Space plotter. If unsure, use the default Cryptomines Proof of Space plotter."
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:163
@@ -1161,7 +1161,7 @@ msgid "Exclude final directory"
 msgstr "Isključi finalni direktorijum"
 
 #: src/components/nfts/gallery/NFTGalleryHero.tsx:18
-msgid "Explore the Chia ecosystem; discover and trade great NFTs"
+msgid "Explore the Cryptomines ecosystem; discover and trade great NFTs"
 msgstr ""
 
 #: src/components/offers/utils.ts:161
@@ -2589,7 +2589,7 @@ msgid "Plots With Missing Keys"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:34
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia.  <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Cryptomines.  <0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:217
@@ -3282,7 +3282,7 @@ msgid "Temporary folder location"
 msgstr ""
 
 #: src/components/app/AppVersionWarning.tsx:35
-msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
+msgid "The Cryptomines application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Cryptomines services version: {backV}<2/>Cryptomines application version: {guiV}<3/><4/>It is recommended that you quit the Cryptomines application and stop all Cryptomines services."
 msgstr ""
 
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:210
@@ -3496,7 +3496,7 @@ msgid "Title Not Available"
 msgstr ""
 
 #: src/components/settings/ResyncPrompt.tsx:41
-msgid "To initiate a wallet resync, all Chia services must first be shut down. After shutting down, you will be required to restart Chia to begin the resyncing process. Are you sure you want to shut down and resync?"
+msgid "To initiate a wallet resync, all Cryptomines services must first be shut down. After shutting down, you will be required to restart Cryptomines to begin the resyncing process. Are you sure you want to shut down and resync?"
 msgstr ""
 
 #: src/components/settings/ProfileView.tsx:127
@@ -3531,7 +3531,7 @@ msgid "Total Amount with Royalties"
 msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
+msgid "Total Cryptomines Farmed"
 msgstr ""
 
 #: src/components/plot/card/PlotCardTotalHarvesters.tsx:11
@@ -3892,7 +3892,7 @@ msgid "WalletConnect Integration"
 msgstr ""
 
 #: src/components/settings/SettingsIntegration.tsx:26
-msgid "WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly to a Chia wallet."
+msgid "WalletConnect enables a decentralized app on the Cryptomines blockchain to communicate and make requests directly to a Cryptomines wallet."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
@@ -4066,7 +4066,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:229
 #: src/components/settings/ChangePassphrasePrompt.tsx:277
 #: src/components/settings/SetPassphrasePrompt.tsx:246
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Cryptomines will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:55

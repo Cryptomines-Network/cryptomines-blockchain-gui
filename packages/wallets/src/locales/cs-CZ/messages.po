@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
 "X-Crowdin-Project-ID: 1\n"
 "X-Crowdin-Language: cs\n"
-"X-Crowdin-File: /[Chia-Network.cryptomines-blockchain-gui] main/packages/wallets/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Cryptomines-Network.cryptomines-blockchain-gui] main/packages/wallets/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 1308\n"
 
 #: src/components/WalletHistory.tsx:116
@@ -96,7 +96,7 @@ msgstr "Zrušit"
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
 msgid "Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Chia nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chia adresu."
+msgstr "Cryptomines nelze odeslat na barevnou adresu. Zadejte prosím běžnou Cryptomines adresu."
 
 #: src/components/WalletsSidebar.tsx:130
 #~ msgid "Check my snapshot balance"
@@ -105,8 +105,8 @@ msgstr "Chia nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chia adr
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
-msgid "Chia Asset Token"
-msgstr "Chia Asset Token"
+msgid "Cryptomines Asset Token"
+msgstr "Cryptomines Asset Token"
 
 #: src/components/WalletHistoryClawbackChip.tsx:53
 msgid "Claim transaction"
@@ -241,7 +241,7 @@ msgid "Distributed Identity"
 msgstr "Distribuovaná identita"
 
 #: src/components/WalletImport.tsx:157
-msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Cryptomines wallet."
 msgstr ""
 
 #: src/components/cat/WalletCATSend.tsx:127
@@ -568,8 +568,8 @@ msgid "This is not a valid address for sending funds to"
 msgstr "Toto není platná adresa pro odesílání prostředků"
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Chia zůstatek využitelný pro transakce. Neobsahuje nezpracované odměny za farmaření, nezpracované příchozí transakce a ani převody, které ještě nebyly zaneseny do blockchainu."
+msgid "This is the amount of Cryptomines that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Cryptomines that you have just spent but is not yet in the blockchain."
+msgstr "Cryptomines zůstatek využitelný pro transakce. Neobsahuje nezpracované odměny za farmaření, nezpracované příchozí transakce a ani převody, které ještě nebyly zaneseny do blockchainu."
 
 #: src/components/standard/WalletStandardCards.tsx:42
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -581,7 +581,7 @@ msgstr "Souhrn příchozích a odchozích nezpracovaných změn (zatím nejsou o
 
 #: src/components/standard/WalletStandardCards.tsx:17
 msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Toto je celkový počet Chia v blockchainu na aktuálním bloku kontrolovaných vaším privátním klíčem. Zahrnuje zmrazené odměny z farmaření ale nezahrnuje čekající příchozí ani odchozí transakce."
+msgstr "Toto je celkový počet Cryptomines v blockchainu na aktuálním bloku kontrolovaných vaším privátním klíčem. Zahrnuje zmrazené odměny z farmaření ale nezahrnuje čekající příchozí ani odchozí transakce."
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."

@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
 "X-Crowdin-Project-ID: 1\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /[Chia-Network.cryptomines-blockchain-gui] main/packages/gui/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Cryptomines-Network.cryptomines-blockchain-gui] main/packages/gui/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 1306\n"
 
 #. js-lingui-explicit-id
@@ -111,7 +111,7 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:714
-msgid "Chia Blockchain Wiki"
+msgid "Cryptomines Blockchain Wiki"
 msgstr ""
 
 #. js-lingui-explicit-id
@@ -146,13 +146,13 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:765
-msgid "Chia"
+msgid "Cryptomines"
 msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:768
 #: src/electron/main.tsx:861
-msgid "About Chia Blockchain"
+msgid "About Cryptomines Blockchain"
 msgstr ""
 
 #. js-lingui-explicit-id
@@ -303,8 +303,8 @@ msgstr "Рекомендуется значение {0}"
 
 #: src/electron/main.tsx:1101
 #: src/electron/main.tsx:1188
-#~ msgid "About Chia Blockchain"
-#~ msgstr "О программе Chia Blockchain"
+#~ msgid "About Cryptomines Blockchain"
+#~ msgstr "О программе Cryptomines Blockchain"
 
 #: src/components/offers/NFTOfferViewer.tsx:638
 #: src/components/offers/OfferAcceptConfirmationDialog.tsx:21
@@ -656,8 +656,8 @@ msgid "Block"
 msgstr "Блок"
 
 #: src/components/block/Block.jsx:250
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на высоте {0} в блокчейне Chia"
+msgid "Block at height {0} in the Cryptomines blockchain"
+msgstr "Блок на высоте {0} в блокчейне Cryptomines"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:32
 msgid "Block Rewards"
@@ -790,11 +790,11 @@ msgid "Change Pool"
 msgstr "Сменить пул"
 
 #: src/components/settings/SettingsStartup.tsx:32
-msgid "Changes will take effect the next time Chia is started"
-msgstr "Изменения вступят в силу при следующем запуске Chia"
+msgid "Changes will take effect the next time Cryptomines is started"
+msgstr "Изменения вступят в силу при следующем запуске Cryptomines"
 
 #: src/components/settings/SettingsDataLayer.tsx:54
-msgid "Changes will take effect the next time Chia is started."
+msgid "Changes will take effect the next time Cryptomines is started."
 msgstr ""
 
 #: src/electron/main.tsx:1080
@@ -816,39 +816,39 @@ msgid "Check Provenance on Spacescan.io"
 msgstr "Проверить происхождение на Spacescan.io"
 
 #: src/electron/main.tsx:1098
-#~ msgid "Chia"
+#~ msgid "Cryptomines"
 #~ msgstr "Чиа"
 
 #: src/components/offers2/OfferBuilderXCHSection.tsx:76
-msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainable"
+msgid "Cryptomines ({currencyCode}) is a digital currency that is secure and sustainable"
 msgstr ""
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:114
-msgid "Chia Asset Tokens (CATs) are tokens built on top of KOP"
+msgid "Cryptomines Asset Tokens (CATs) are tokens built on top of KOP"
 msgstr ""
 
 #: src/electron/main.tsx:1047
-#~ msgid "Chia Blockchain Wiki"
+#~ msgid "Cryptomines Blockchain Wiki"
 #~ msgstr ""
-#~ "Блокчейн Chia на Wiki                           Chia coin\n"
+#~ "Блокчейн Cryptomines на Wiki                           Cryptomines coin\n"
 #~ "\n"
 #~ "Мы считаем, что криптовалютой должно быть проще пользоваться, чем наличными, ее сложнее потерять и почти невозможно украсть. Любой, кто хочет подтверждать транзакции, должен иметь возможность заниматься майнингом без одноразового оборудования или больших счетов за электроэнергию.\n"
 #~ "9 февраля мы выпустили наш бизнес-документ и запустили основную сеть для получения вознаграждений в пятницу, 19 марта 2021 года. Транзакции будут активированы 3 мая 2021 года около 10:00 по тихоокеанскому времени. Вас также может заинтересовать наш новый согласованный рабочий документ, который впервые был реализован в бета-версии 19 12 января 2021 года.\n"
 #~ "\n"
 #~ "Kopalnie Krypto разрабатывает блокчейн и платформу интеллектуальных транзакций, созданную изобретателем BitTorrent Брэмом Коэном. Он реализует первый новый алгоритм консенсуса Накамото со времен Биткойна в 2008 году. Доказательства пространства и времени заменяют энергоемкие «доказательства работы».\n"
 #~ "\n"
-#~ "Chialisp - это новый язык программирования Chia, который является мощным, легким для аудита и безопасным. Это упростит использование криптовалюты, чем наличные деньги или кредит. В настоящее время доступны следующие эталонные смарт-транзакции: атомарные свопы, авторизованные получатели, восстанавливаемые кошельки, кошельки с несколькими подписями, кошельки с ограничением скорости и цветные монеты. Брэм представляет Chialisp в нашем блоге.\n"
-#~ "Вам следует ознакомиться с примечаниями к выпуску, а затем установить блокчейн Chia.\n"
+#~ "Chialisp - это новый язык программирования Cryptomines, который является мощным, легким для аудита и безопасным. Это упростит использование криптовалюты, чем наличные деньги или кредит. В настоящее время доступны следующие эталонные смарт-транзакции: атомарные свопы, авторизованные получатели, восстанавливаемые кошельки, кошельки с несколькими подписями, кошельки с ограничением скорости и цветные монеты. Брэм представляет Chialisp в нашем блоге.\n"
+#~ "Вам следует ознакомиться с примечаниями к выпуску, а затем установить блокчейн Cryptomines.\n"
 #~ "\n"
 #~ "Руководство для начинающих\n"
 #~ "\n"
 #~ "\n"
 #~ "Основная информация о Чиа для начала\n"
-#~ "Chia - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Chia также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
+#~ "Cryptomines - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Cryptomines также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
 #~ "\n"
 #~ "Как это работает\n"
 #~ "\n"
-#~ "Вы можете загрузить программное обеспечение Chia на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируетсь со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна chia будет храниться на вашем компьютере. У всех остальных есть копия.\n"
+#~ "Вы можете загрузить программное обеспечение Cryptomines на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируетсь со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна chia будет храниться на вашем компьютере. У всех остальных есть копия.\n"
 #~ "\n"
 #~ "После того, как chia заработала, ее концепция: пользователи создают графики (каждый размером 101 гигабайт), пользователь сохраняет эти графики на компьютерном оборудовании, а затем обрабатывает созданные участки для потенциального заработка монет.\n"
 #~ "\n"
@@ -868,10 +868,10 @@ msgstr ""
 #~ "Руководство для начинающих\n"
 #~ "lon12 отредактировал эту страницу 10 дней назад • 57 редакций\n"
 #~ "Основная информация о Чиа для начала\n"
-#~ "Chia - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Chia также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
+#~ "Cryptomines - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Cryptomines также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
 #~ "\n"
 #~ "Как это работает\n"
-#~ "Вы можете загрузить программное обеспечение Chia на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируете со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна chia будет храниться на вашем компьютере. У всех остальных есть копия.\n"
+#~ "Вы можете загрузить программное обеспечение Cryptomines на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируете со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна chia будет храниться на вашем компьютере. У всех остальных есть копия.\n"
 #~ "\n"
 #~ "После того, как chia заработала, ее концепция: пользователи создают графики (каждый размером 101 гигабайт), пользователь сохраняет эти графики на компьютерном оборудовании, а затем обрабатывает созданные участки для потенциального заработка монет.\n"
 #~ "\n"
@@ -909,7 +909,7 @@ msgstr ""
 #~ "Шаг 2 - Выбранный участок проверяется на выигрышный хэш. Итак, в качестве примера - ваша система работает - есть 5 строк, если у вас 157 графиков - каждая из 5 строк читает 0/157. Если выбран график или второй график, это хорошая новость, и число изменится на 1/157 или 2/157, может быть, 3/157. После прохождения фильтра каждый выбранный участок будет проходить «качественный поиск», который выполняет примерно 7 считываний на вашем графике и сообщает вам, выиграли ли участки. Если вы выиграли, это не показывает никаких признаков, так как транзакция выполняется быстро. Ваш кошелек увеличивается.\n"
 #~ "\n"
 #~ "Как только это совпадение появится в первой строке, оно переместится вниз к строкам 2-5, затем, если другой график пройдет шаг 1, он также начнется сверху, amd переместится, выполнив процесс фильтрации.\n"
-#~ "Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/Chia-Network/cryptomines-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
+#~ "Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
 #~ "\n"
 #~ "Если по какой-то причине эти строки перестают двигаться, это еще один признак того, что вы не синхронизированы с базой данных и вам необходимо выполнить повторную синхронизацию - см. Ниже.\n"
 #~ "\n"
@@ -1240,7 +1240,7 @@ msgid "Create & Manage plots"
 msgstr "Создание и управление участками"
 
 #: src/components/offers/OfferManager.tsx:328
-msgid "Create a file that you can use to trade KOP, Chia Asset Tokens, or NFTs with no counter-party risk."
+msgid "Create a file that you can use to trade KOP, Cryptomines Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:113
@@ -1375,7 +1375,7 @@ msgstr "URL данных {0}"
 #~ msgstr "Слой данных"
 
 #: src/components/settings/SettingsDataLayer.tsx:21
-msgid "DataLayer enables rich data to be stored on mirrored databases that can be verified using the Chia Blockchain."
+msgid "DataLayer enables rich data to be stored on mirrored databases that can be verified using the Cryptomines Blockchain."
 msgstr ""
 
 #: src/components/settings/SettingsDataLayer.tsx:18
@@ -1434,8 +1434,8 @@ msgid "Deleting key"
 msgstr "Удалить ключ"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:81
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
-msgstr "В зависимости от конфигурации системы, вы можете заметить, что альтернативный плоттер создает участки быстрее, чем стандартный плоттер Chia Proof Space. Если вы не уверены, то используйте стандартный плоттер Chia Proof Space."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Cryptomines Proof of Space plotter. If unsure, use the default Cryptomines Proof of Space plotter."
+msgstr "В зависимости от конфигурации системы, вы можете заметить, что альтернативный плоттер создает участки быстрее, чем стандартный плоттер Cryptomines Proof Space. Если вы не уверены, то используйте стандартный плоттер Cryptomines Proof Space."
 
 #: src/components/settings/SettingsPanel.tsx:164
 msgid "Derivation Index"
@@ -1774,8 +1774,8 @@ msgid "Expired"
 msgstr ""
 
 #: src/components/nfts/gallery/NFTGalleryHero.tsx:18
-msgid "Explore the Chia ecosystem; discover and trade great NFTs"
-msgstr "Исследуйте экосистему Chia; обнаруживайте и торгуйте превосходными NFT"
+msgid "Explore the Cryptomines ecosystem; discover and trade great NFTs"
+msgstr "Исследуйте экосистему Cryptomines; обнаруживайте и торгуйте превосходными NFT"
 
 #: src/components/offers/utils.ts:125
 #: src/components/plot/PlotHarvester.tsx:121
@@ -2004,7 +2004,7 @@ msgid "Get Current Address"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:124
-msgid "Get Mojos from the Chia Faucet"
+msgid "Get Mojos from the Cryptomines Faucet"
 msgstr ""
 
 #: src/constants/WalletConnectCommands.tsx:243
@@ -3431,7 +3431,7 @@ msgid "Plots"
 msgstr "Участки"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:34
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia.  <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Cryptomines.  <0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/card/PlotCardPlotsFailedToOpen.tsx:11
@@ -4366,7 +4366,7 @@ msgid "Temporary folder location"
 msgstr "Расположение временной папки"
 
 #: src/components/app/AppVersionWarning.tsx:35
-msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
+msgid "The Cryptomines application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Cryptomines services version: {backV}<2/>Cryptomines application version: {guiV}<3/><4/>It is recommended that you quit the Cryptomines application and stop all Cryptomines services."
 msgstr ""
 
 #: src/components/settings/SettingsCustody.tsx:49
@@ -4572,7 +4572,7 @@ msgid "This will reset all previously granted permissions across all Dapps that 
 msgstr ""
 
 #: src/components/settings/SettingsIntegration.tsx:359
-msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Chia wallet."
+msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Cryptomines wallet."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:151
@@ -4596,7 +4596,7 @@ msgid "Title Not Available"
 msgstr "Заголовок недоступен"
 
 #: src/components/settings/ResyncPrompt.tsx:41
-msgid "To initiate a wallet resync, all Chia services must first be shut down. After shutting down, you will be required to restart Chia to begin the resyncing process. Are you sure you want to shut down and resync?"
+msgid "To initiate a wallet resync, all Cryptomines services must first be shut down. After shutting down, you will be required to restart Cryptomines to begin the resyncing process. Are you sure you want to shut down and resync?"
 msgstr ""
 
 #: src/components/settings/ProfileView.tsx:127
@@ -4635,7 +4635,7 @@ msgid "Total Amount with Royalties"
 msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
+msgid "Total Cryptomines Farmed"
 msgstr "Всего выращено монет"
 
 #: src/components/plot/card/PlotCardTotalHarvesters.tsx:11
@@ -5112,7 +5112,7 @@ msgid "WalletConnect"
 msgstr ""
 
 #: src/components/settings/SettingsIntegration.tsx:142
-msgid "WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly to a Chia wallet."
+msgid "WalletConnect enables a decentralized app on the Cryptomines blockchain to communicate and make requests directly to a Cryptomines wallet."
 msgstr ""
 
 #: src/components/walletConnect/WalletConnectAddConnectionDialog.tsx:135
@@ -5289,7 +5289,7 @@ msgid "You will recieve <0/> to {address}"
 msgstr "Вы получите <0/> на {address}"
 
 #: src/components/walletConnect/WalletConnectActiveSessions.tsx:56
-msgid "Your current version of the Chia application may not support some commands requested by the dApp. For the best experience, consider updating to the latest version."
+msgid "Your current version of the Cryptomines application may not support some commands requested by the dApp. For the best experience, consider updating to the latest version."
 msgstr ""
 
 #: src/components/farm/FarmHeader.tsx:21
@@ -5315,7 +5315,7 @@ msgstr "Ваша связка ключей заблокирована"
 #: src/components/app/AppKeyringMigrator.tsx:229
 #: src/components/settings/ChangePassphrasePrompt.tsx:277
 #: src/components/settings/SetPassphrasePrompt.tsx:246
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Cryptomines will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:56

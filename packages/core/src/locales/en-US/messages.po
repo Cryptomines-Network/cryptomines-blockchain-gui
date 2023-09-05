@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
 "X-Crowdin-Project-ID: 1\n"
 "X-Crowdin-Language: en\n"
-"X-Crowdin-File: /[Chia-Network.cryptomines-blockchain-gui] main/packages/core/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Cryptomines-Network.cryptomines-blockchain-gui] main/packages/core/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 1304\n"
 
 #: src/components/EstimatedFee/EstimatedFee.tsx:61
@@ -35,8 +35,8 @@ msgid "{minPassphraseLength, plural, one {Passphrases must be at least # charact
 msgstr "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
-msgid "A new version of Chia is available!"
-msgstr "A new version of Chia is available!"
+msgid "A new version of Cryptomines is available!"
+msgstr "A new version of Cryptomines is available!"
 
 #: src/screens/SelectKey/EmojiAndColorPicker.tsx:258
 msgid "Add Icon"
@@ -79,12 +79,12 @@ msgid "Checking for updates..."
 msgstr "Checking for updates..."
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
-msgid "Chia {latestVersion} is currently the latest version available."
-msgstr "Chia {latestVersion} is currently the latest version available."
+msgid "Cryptomines {latestVersion} is currently the latest version available."
+msgstr "Cryptomines {latestVersion} is currently the latest version available."
 
 #: src/components/Settings/SettingsApp.tsx:125
-msgid "Chia Application Version:"
-msgstr "Chia Application Version:"
+msgid "Cryptomines Application Version:"
+msgstr "Cryptomines Application Version:"
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
@@ -113,8 +113,8 @@ msgid "Create a new wallet key"
 msgstr "Create a new wallet key"
 
 #: src/screens/SelectKey/SelectKey.tsx:262
-msgid "Create a new wallet key to get started with Chia."
-msgstr "Create a new wallet key to get started with Chia."
+msgid "Create a new wallet key to get started with Cryptomines."
+msgstr "Create a new wallet key to get started with Cryptomines."
 
 #: src/screens/SelectKey/SelectKey.tsx:175
 msgid "Create New"
@@ -544,8 +544,8 @@ msgid "Wallet Keys"
 msgstr "Wallet Keys"
 
 #: src/screens/SelectKey/SelectKey.tsx:142
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-#~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgid "Welcome to Cryptomines. Please log in with an existing key, or create a new key."
+#~ msgstr "Welcome to Cryptomines. Please log in with an existing key, or create a new key."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:177
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
