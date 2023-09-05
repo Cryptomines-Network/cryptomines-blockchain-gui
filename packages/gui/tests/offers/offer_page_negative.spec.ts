@@ -62,7 +62,7 @@
 
 //   // Given I Click Back Button
 //   await page
-//     .locator('text=Create an NFT OfferBuy an NFTSell an NFTYou will offerAmount *TXCH50,000,000,000 >> button')
+//     .locator('text=Create an NFT OfferBuy an NFTSell an NFTYou will offerAmount *TKOP50,000,000,000 >> button')
 //     .first()
 //     .click();
 

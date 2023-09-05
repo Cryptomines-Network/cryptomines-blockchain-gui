@@ -14,7 +14,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     jest.clearAllMocks();
   });
 
-  describe('when offering XCH for CAT', () => {
+  describe('when offering KOP for CAT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -23,8 +23,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
+          symbol: 'KOP',
+          displayName: 'KOP',
           assetId: 'xch',
         },
         2: {
@@ -77,7 +77,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     });
   });
 
-  describe('when offering a CAT for XCH', () => {
+  describe('when offering a CAT for KOP', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -86,8 +86,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
+          symbol: 'KOP',
+          displayName: 'KOP',
           assetId: 'xch',
         },
         2: {
@@ -143,7 +143,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
       });
     });
   });
-  describe('when offering XCH for an NFT', () => {
+  describe('when offering KOP for an NFT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -152,8 +152,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
+          symbol: 'KOP',
+          displayName: 'KOP',
           assetId: 'xch',
         },
       };
@@ -219,8 +219,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
+          symbol: 'KOP',
+          displayName: 'KOP',
           assetId: 'xch',
         },
         2: {

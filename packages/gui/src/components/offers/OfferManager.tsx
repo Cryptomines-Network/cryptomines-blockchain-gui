@@ -326,7 +326,7 @@ export function OfferManager() {
                       </Typography>
                       <Typography variant="body1" color="textSecondary">
                         <Trans>
-                          Create a file that you can use to trade XCH, Chia Asset Tokens, or NFTs with no counter-party
+                          Create a file that you can use to trade KOP, Chia Asset Tokens, or NFTs with no counter-party
                           risk.
                         </Trans>
                       </Typography>

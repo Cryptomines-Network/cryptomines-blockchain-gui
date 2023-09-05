@@ -26,8 +26,8 @@ export function resolvePendingAssets(offer: OfferTradeRecordFormatted): PendingA
     const assetId = pendingAssetIds[m];
     const amount = new BigNumber(offer.pending[assetId]);
     let type: AssetStatusForOffer['type'] | undefined;
-    if (assetId.toUpperCase() === 'XCH' || assetId.toUpperCase() === 'UNKNOWN') {
-      type = 'XCH';
+    if (assetId.toUpperCase() === 'KOP' || assetId.toUpperCase() === 'UNKNOWN') {
+      type = 'KOP';
     } else {
       const info = offer.summary.infos[assetId];
       type = info.type.toUpperCase() as 'CAT' | 'SINGLETON';
@@ -90,7 +90,7 @@ export function resolveOfferInfoWithPendingAmounts(
     let pendingAmount = new BigNumber(0);
     for (let i = 0; i < pendingAssets.length; i++) {
       const pa = pendingAssets[i];
-      if (pa.type === 'XCH' && ['XCH', 'UNKNOWN'].includes(assetId.toUpperCase())) {
+      if (pa.type === 'KOP' && ['KOP', 'UNKNOWN'].includes(assetId.toUpperCase())) {
         // assetId: unknown likely to be fee
         pendingAmount = pendingAmount.plus(pa.amount);
       } else if (pa.assetId === assetId) {

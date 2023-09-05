@@ -36,7 +36,7 @@ test('Confirm that User cannot send a TKOP amount greater then in Wallet', async
 
   const balance = getWalletBalance(funded_wallet);
 
-  console.log(`XCH Balance: ${balance}`);
+  console.log(`KOP Balance: ${balance}`);
   //End: Wait for Wallet to Sync
 
   //And I click on Send Page
