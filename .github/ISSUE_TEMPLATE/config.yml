@@ -7,6 +7,3 @@ contact_links:
     name: Make a Request
     url: >-
       https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/discussions/new?category=ideas
-  - about: Get support on the Chia Discord chat channels.
-    name: Join the Discord support chat
-    url: 'https://discord.gg/chia'

@@ -24,13 +24,13 @@
     ],
     "protocols": [
       {
-        "name": "Chia URL",
+        "name": "Cryptomines URL",
         "schemes": [
           "chia"
         ]
       },
       {
-        "name": "Chia KOP Address",
+        "name": "Cryptomines KOP Address",
         "schemes": [
           "kop"
         ]
@@ -40,7 +40,7 @@
       "target": "nsis",
       "icon": "src/assets/img/chia.ico",
       "timeStampServer": "http://timestamp.comodoca.com",
-      "executableName": "Chia"
+      "executableName": "Cryptomines"
     },
     "nsis": {
       "artifactName": "ChiaSetup-${env.CRYPTOMINES_INSTALLER_VERSION}.exe",
@@ -53,7 +53,7 @@
       "include": "installer.nsh"
     },
     "mac": {
-      "executableName": "Chia",
+      "executableName": "Cryptomines",
       "artifactName": "${productName}-${env.CRYPTOMINES_INSTALLER_VERSION}.${ext}",
       "category": "public.app-category.finance",
       "target": "dmg",

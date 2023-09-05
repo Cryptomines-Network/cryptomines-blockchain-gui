@@ -15,7 +15,7 @@ export default function NFTGalleryHero() {
         <Trans>Go collect some gems</Trans>
       </Typography>
       <Typography variant="body1" color="textSecondary">
-        <Trans>Explore the Chia ecosystem; discover and trade great NFTs</Trans>
+        <Trans>Explore the Cryptomines ecosystem; discover and trade great NFTs</Trans>
       </Typography>
 
       {isDarkMode ? <HeroImageDark /> : <HeroImage />}

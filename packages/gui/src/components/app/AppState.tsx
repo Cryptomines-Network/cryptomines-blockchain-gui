@@ -150,7 +150,7 @@ export default function AppState(props: Props) {
       ipcRenderer.invoke('processLaunchTasks');
 
       if (isTestnet && !updatedWindowTitle) {
-        ipcRenderer.invoke('setWindowTitle', 'Chia Blockchain (Testnet)');
+        ipcRenderer.invoke('setWindowTitle', 'Cryptomines Blockchain (Testnet)');
         setUpdatedWindowTitle(true);
       }
 

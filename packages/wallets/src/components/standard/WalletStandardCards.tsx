@@ -21,8 +21,8 @@ export default function WalletStandardCards(props: Props) {
       }
       spendableBalanceTooltip={
         <Trans>
-          This is the amount of Chia that you can currently use to make transactions. It does not include pending
-          farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the
+          This is the amount of Cryptomines that you can currently use to make transactions. It does not include pending
+          farming rewards, pending incoming transactions, and Cryptomines that you have just spent but is not yet in the
           blockchain.
         </Trans>
       }

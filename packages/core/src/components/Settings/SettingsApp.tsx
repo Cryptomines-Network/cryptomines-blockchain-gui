@@ -122,7 +122,7 @@ export default function SettingsApp(props: SettingsAppProps) {
       <Flex flexDirection="column" gap={1}>
         <Flex flexDirection="row" gap={1}>
           <SettingsLabel>
-            <Trans>Chia Application Version:</Trans>
+            <Trans>Cryptomines Application Version:</Trans>
           </SettingsLabel>
           {version && (
             <Typography variant="body1" color="textSecondary">

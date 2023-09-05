@@ -53,7 +53,7 @@ test('Confirm user can navigate and interact with the Settings page in user acce
   //And the File Propagation checkbox is now Visible
   await expect(page.locator('text=Enable File Propagation Server')).toBeVisible();
 
-  //Stop Chia
+  //Stop Cryptomines
   await page.close();
   stopAllChia();
 });

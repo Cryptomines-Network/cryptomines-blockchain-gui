@@ -48,9 +48,9 @@ export default function NFTOfferTokenSelector(props: Props) {
       (wallet: WalletType) => ({
         walletId: wallet.id,
         walletType: wallet.type,
-        name: 'Chia',
+        name: 'Cryptomines',
         symbol: currencyCode,
-        displayName: `Chia (${currencyCode})`,
+        displayName: `Cryptomines (${currencyCode})`,
         disabled: false,
         tail: '',
       })

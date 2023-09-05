@@ -28,7 +28,7 @@ export function isWalletSynced(fingerprint: string | number) {
 export function getWalletBalance(fingerprint: string | number): string | undefined {
   const output = runWalletCommandWithArgs(['show', '--fingerprint', fingerprint.toString()]);
 
-  const balanceMatch = output.match(/Chia Wallet:\s+-Total Balance:\s+([^\s]+)/);
+  const balanceMatch = output.match(/Cryptomines Wallet:\s+-Total Balance:\s+([^\s]+)/);
   const balance = balanceMatch?.[1];
   return balance;
 }

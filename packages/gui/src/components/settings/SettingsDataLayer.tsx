@@ -19,7 +19,7 @@ export default function SettingsDataLayer() {
           </SettingsSection>
           <SettingsText>
             <Trans>
-              DataLayer enables rich data to be stored on mirrored databases that can be verified using the Chia
+              DataLayer enables rich data to be stored on mirrored databases that can be verified using the Cryptomines
               Blockchain.
             </Trans>
           </SettingsText>
@@ -51,7 +51,7 @@ export default function SettingsDataLayer() {
             <Trans>Turn on/off the DataLayer service.</Trans>
           </SettingsText>
           <FormHelperText>
-            <Trans>Changes will take effect the next time Chia is started.</Trans>
+            <Trans>Changes will take effect the next time Cryptomines is started.</Trans>
           </FormHelperText>
         </Grid>
       </Grid>

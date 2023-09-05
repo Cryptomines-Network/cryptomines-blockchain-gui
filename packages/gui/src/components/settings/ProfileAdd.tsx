@@ -121,7 +121,7 @@ export default function ProfileAdd() {
                     <Trans>Need some {currencyCode}?</Trans>
                   </Typography>
                   <Link onClick={handleClick}>
-                    <Trans>Get Mojos from the Chia Faucet</Trans>
+                    <Trans>Get Mojos from the Cryptomines Faucet</Trans>
                   </Link>
                 </Flex>
               )}

@@ -64,7 +64,7 @@ function buildAssetSelectorList(params: BuildAssetSelectorListParams): WalletOff
     }
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
-      name = 'Chia';
+      name = 'Cryptomines';
       symbol = chiaCurrencyCode;
     } else if (wallet.type === WalletType.CAT) {
       name = wallet.name;

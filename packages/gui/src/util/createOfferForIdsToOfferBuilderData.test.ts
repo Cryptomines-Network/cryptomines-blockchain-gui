@@ -22,7 +22,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
+          name: 'Cryptomines',
           symbol: 'KOP',
           displayName: 'KOP',
           assetId: 'kop',
@@ -85,7 +85,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
+          name: 'Cryptomines',
           symbol: 'KOP',
           displayName: 'KOP',
           assetId: 'kop',
@@ -151,7 +151,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
+          name: 'Cryptomines',
           symbol: 'KOP',
           displayName: 'KOP',
           assetId: 'kop',
@@ -218,7 +218,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
+          name: 'Cryptomines',
           symbol: 'KOP',
           displayName: 'KOP',
           assetId: 'kop',

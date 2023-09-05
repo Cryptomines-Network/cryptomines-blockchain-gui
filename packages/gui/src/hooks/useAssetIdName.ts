@@ -40,7 +40,7 @@ export default function useAssetIdName() {
 
       if (walletType === WalletType.STANDARD_WALLET) {
         assetId = 'kop';
-        name = 'Chia';
+        name = 'Cryptomines';
         symbol = currencyCode;
         isVerified = true;
       } else if (walletType === WalletType.CAT) {
@@ -96,7 +96,7 @@ export default function useAssetIdName() {
     // If using testnet, add a TKOP assetId entry
     if (currencyCode === 'TKOP') {
       const assetId = 'tkop';
-      const name = 'Chia (Testnet)';
+      const name = 'Cryptomines (Testnet)';
       const symbol = 'TKOP';
       const displayName = symbol || name;
       const entry: AssetIdMapEntry = {

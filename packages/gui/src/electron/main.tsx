@@ -714,7 +714,7 @@ function getMenuTemplate() {
       role: 'help',
       submenu: [
         {
-          label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
+          label: i18n._(/* i18n */ { id: 'Cryptomines Blockchain Wiki' }),
           click: () => {
             openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/wiki');
           },
@@ -751,12 +751,12 @@ function getMenuTemplate() {
   ];
 
   if (process.platform === 'darwin') {
-    // Chia Blockchain menu (Mac)
+    // Cryptomines Blockchain menu (Mac)
     template.unshift({
-      label: i18n._(/* i18n */ { id: 'Chia' }),
+      label: i18n._(/* i18n */ { id: 'Cryptomines' }),
       submenu: [
         {
-          label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Cryptomines Blockchain' }),
           click: () => {
             openAbout();
           },
@@ -849,7 +849,7 @@ function getMenuTemplate() {
         type: 'separator',
       },
       {
-        label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+        label: i18n._(/* i18n */ { id: 'About Cryptomines Blockchain' }),
         click() {
           openAbout();
         },

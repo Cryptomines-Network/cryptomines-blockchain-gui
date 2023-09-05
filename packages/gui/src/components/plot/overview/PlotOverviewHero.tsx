@@ -32,7 +32,7 @@ export default function PlotOverviewHero() {
           <Plots color="primary" fontSize="extraLarge" />
           <Typography variant="body1">
             <Trans>
-              Plots are allocated space on your hard drive used to farm and earn Chia. &nbsp;
+              Plots are allocated space on your hard drive used to farm and earn Cryptomines. &nbsp;
               <Link target="_blank" href="https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/wiki/Network-Architecture">
                 Learn more
               </Link>

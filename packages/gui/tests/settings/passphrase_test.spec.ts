@@ -37,7 +37,7 @@ test('Confirm user can add and remove passphrase ', async () => {
   await page.getByTestId('SetPassphrasePrompt-set-passphrase').click();
   await page.getByRole('button', { name: 'OK' }).click();
 
-  //When I close and reopen Chia
+  //When I close and reopen Cryptomines
   await page.locator('[data-testid="LayoutDashboard-log-out"]').click();
   await page.close();
   stopAllChia();
@@ -66,7 +66,7 @@ test('Confirm user can add and remove passphrase ', async () => {
   await page.locator('div[role="dialog"] button:has-text("Remove Passphrase")').click();
   await page.locator('button:has-text("OK")').click();
 
-  //When I close and reopen Chia
+  //When I close and reopen Cryptomines
   await page.locator('[data-testid="LayoutDashboard-log-out"]').click();
   await page.close();
   electronApp = await electron.launch({ args: ['./build/electron/main.js'] });

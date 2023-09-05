@@ -54,7 +54,7 @@ export default function WalletConnectActiveSessions(props: WalletConnectActiveSe
                       <Trans>Unsupported commands</Trans>{' '}
                       <TooltipIcon>
                         <Trans>
-                          Your current version of the Chia application may not support some commands requested by the
+                          Your current version of the Cryptomines application may not support some commands requested by the
                           dApp. For the best experience, consider updating to the latest version.
                         </Trans>
                       </TooltipIcon>

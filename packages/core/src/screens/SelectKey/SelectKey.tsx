@@ -262,7 +262,7 @@ export default function SelectKey() {
                 color="textSecondary"
                 sx={{ fontWeight: 400, fontSize: '18px' }}
               >
-                <Trans>Create a new wallet key to get started with Chia.</Trans>
+                <Trans>Create a new wallet key to get started with Cryptomines.</Trans>
               </Typography>
               <Button
                 onClick={() => handleNavigationIfKeyringIsMutable('/wallet/add')}

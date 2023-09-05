@@ -36,7 +36,7 @@ describe('utils', () => {
         {
           id: 1,
           type: WalletType.STANDARD_WALLET,
-          name: 'Chia',
+          name: 'Cryptomines',
         },
         {
           id: 2,
@@ -53,7 +53,7 @@ describe('utils', () => {
         {
           id: 1,
           type: WalletType.STANDARD_WALLET,
-          name: 'Chia',
+          name: 'Cryptomines',
         },
         {
           id: 2,

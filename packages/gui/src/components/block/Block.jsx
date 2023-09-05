@@ -247,7 +247,7 @@ export default function Block() {
       <Card
         title={
           <Back variant="h5">
-            <Trans>Block at height {blockRecord.height} in the Chia blockchain</Trans>
+            <Trans>Block at height {blockRecord.height} in the Cryptomines blockchain</Trans>
           </Back>
         }
         action={

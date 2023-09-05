@@ -12,7 +12,7 @@ import WalletIcon from './WalletIcon';
 function getPrimaryTitle(wallet: Wallet): string {
   switch (wallet.type) {
     case WalletType.STANDARD_WALLET:
-      return 'Chia';
+      return 'Cryptomines';
     default:
       return wallet.name;
   }
