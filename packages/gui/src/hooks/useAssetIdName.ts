@@ -95,7 +95,7 @@ export default function useAssetIdName() {
 
     // If using testnet, add a TKOP assetId entry
     if (currencyCode === 'TKOP') {
-      const assetId = 'txch';
+      const assetId = 'tkop';
       const name = 'Chia (Testnet)';
       const symbol = 'TKOP';
       const displayName = symbol || name;

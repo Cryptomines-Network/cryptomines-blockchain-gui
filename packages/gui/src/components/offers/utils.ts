@@ -187,7 +187,7 @@ export function offerContainsAssetOfType(
 export function offerAssetTypeForAssetId(assetId: string, offerSummary: OfferSummaryRecord): OfferAsset | undefined {
   let assetType: OfferAsset | undefined;
 
-  if (['xch', 'txch'].includes(assetId)) {
+  if (['xch', 'tkop'].includes(assetId)) {
     assetType = OfferAsset.CHIA;
   } else {
     const { infos } = offerSummary;

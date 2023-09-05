@@ -226,7 +226,7 @@ export default function ContactEdit() {
             throw new Error();
           }
         } else if (entry.address[4] === '1') {
-          if (entry.address.slice(0, 4).toLowerCase() !== 'txch') {
+          if (entry.address.slice(0, 4).toLowerCase() !== 'tkop') {
             throw new Error();
           } else if (fromBech32m(entry.address).length !== 64) {
             throw new Error();
