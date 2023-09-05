@@ -93,11 +93,11 @@ export default function useAssetIdName() {
       assetIdNameMapping.set(assetId, entry);
     });
 
-    // If using testnet, add a TXCH assetId entry
-    if (currencyCode === 'TXCH') {
+    // If using testnet, add a TKOP assetId entry
+    if (currencyCode === 'TKOP') {
       const assetId = 'txch';
       const name = 'Chia (Testnet)';
-      const symbol = 'TXCH';
+      const symbol = 'TKOP';
       const displayName = symbol || name;
       const entry: AssetIdMapEntry = {
         walletId: 1,

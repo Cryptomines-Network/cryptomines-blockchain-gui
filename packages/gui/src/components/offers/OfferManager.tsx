@@ -81,7 +81,7 @@ function OfferList(props: OfferListProps) {
   const [saveOffer] = useSaveOfferFile();
   const { isLoading: isLoadingWallets } = useGetWalletsQuery();
   const { lookupByAssetId } = useAssetIdName();
-  const testnet = useCurrencyCode() === 'TXCH';
+  const testnet = useCurrencyCode() === 'TKOP';
   const openDialog = useOpenDialog();
   const { navigate } = useSerializedNavigationState();
   const {
@@ -366,7 +366,7 @@ export function CreateOffer() {
   const openDialog = useOpenDialog();
   const [saveOffer] = useSaveOfferFile();
   const currencyCode = useCurrencyCode();
-  const testnet = currencyCode === 'TXCH';
+  const testnet = currencyCode === 'TKOP';
 
   async function handleOfferCreated(obj: { offerRecord: any; offerData: any; address?: string }) {
     const { offerRecord, offerData, address: ph } = obj;

@@ -16,7 +16,7 @@ test.afterAll(async () => {
   await page.close();
 });
 
-test('Confirm that User cannot send a TXCH amount greater then in Wallet', async () => {
+test('Confirm that User cannot send a TKOP amount greater then in Wallet', async () => {
   let receive_wallet = 'txch1ksr59en3j3t9zaprmya0jp9k6mkazq2u5lfccaf85sej7kgmvjjscanfxd';
   let funded_wallet = '1922132445';
 
@@ -49,7 +49,7 @@ test('Confirm that User cannot send a TXCH amount greater then in Wallet', async
   await page.locator('[data-testid="WalletSend-amount"]').fill('200');
 
   //Have to revisit the FEE component. And I enter a valid Fee
-  //await page.locator('text=Fee *TXCH >> input[type="text"]').fill('0.000005');
+  //await page.locator('text=Fee *TKOP >> input[type="text"]').fill('0.000005');
 
   //And I click Send button
   await page.locator('[data-testid="WalletSend-send"]').click();
@@ -69,5 +69,5 @@ test('Confirm that User cannot send a TXCH amount greater then in Wallet', async
   await page.locator('[data-testid="WalletHeader-tab-summary"]').click();
 
   //Then there are no changes in the Pending Balance section
-  await expect(page.getByText('Pending Balance0 TXCH')).toBeVisible();
+  await expect(page.getByText('Pending Balance0 TKOP')).toBeVisible();
 });

@@ -12,7 +12,7 @@ export default function HarvesterOverview() {
   const { isLoading: isLoadingBlockchainState, data: blockChainState } = useGetBlockchainStateQuery();
   const { isLoading: isLoadingHarvesters, data: harvesters } = useGetHarvestersQuery();
   const { isLoading: isLoadingFarmingInfo, data } = useGetNewFarmingInfoQuery();
-  const isTestnet = (useCurrencyCode() ?? 'XCH').toUpperCase() === 'TXCH';
+  const isTestnet = (useCurrencyCode() ?? 'XCH').toUpperCase() === 'TKOP';
 
   const newFarmingInfo = data?.newFarmingInfo;
   const latencyData = data?.latencyData;
