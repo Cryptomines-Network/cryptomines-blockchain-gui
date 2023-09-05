@@ -59,8 +59,8 @@ export default async function offerBuilderDataToOffer({
   assetsToUnlock: AssetStatusForOffer[];
 }> {
   const {
-    offered: { xch: offeredXch = [], tokens: offeredTokens = [], nfts: offeredNfts = [], fee: [firstFee] = [] },
-    requested: { xch: requestedXch = [], tokens: requestedTokens = [], nfts: requestedNfts = [] },
+    offered: { kop: offeredXch = [], tokens: offeredTokens = [], nfts: offeredNfts = [], fee: [firstFee] = [] },
+    requested: { kop: requestedXch = [], tokens: requestedTokens = [], nfts: requestedNfts = [] },
   } = data;
 
   const usedNFTs: string[] = [];
@@ -95,7 +95,7 @@ export default async function offerBuilderDataToOffer({
             pendingOffers[idx].lockedAmount = pendingOffers[idx].lockedAmount.plus(lockedAmount);
             pendingOffers[idx].relevantOffers.push(o);
             if (pendingOffers[idx].assetId.toUpperCase() !== assetId.toUpperCase()) {
-              // Now we can distinguish that we have xch spending which is only KOP, only Fee or both KOP and Fee
+              // Now we can distinguish that we have kop spending which is only KOP, only Fee or both KOP and Fee
               pendingOffers[idx].assetId = 'KOP+FEE';
             }
           } else {
@@ -155,8 +155,8 @@ export default async function offerBuilderDataToOffer({
   }
 
   // offeredXch.length should be always 0 or 1
-  const xchTasks = offeredXch.map(async (xch) => {
-    const { amount } = xch;
+  const xchTasks = offeredXch.map(async (kop) => {
+    const { amount } = kop;
     if (!amount || amount === '0') {
       throw new Error(t`Please enter an KOP amount`);
     }
@@ -186,7 +186,7 @@ export default async function offerBuilderDataToOffer({
       }
     }
   });
-  // Treat fee as xch spending
+  // Treat fee as kop spending
   if (offeredXch.length === 0 && feeInMojos.gt(0)) {
     if (!standardWallet || !standardWalletBalance) {
       throw new Error(t`No standard wallet found`);
@@ -282,8 +282,8 @@ export default async function offerBuilderDataToOffer({
   await Promise.all([...xchTasks, ...tokenTasks, ...nftTasks]);
 
   // requested
-  requestedXch.forEach((xch) => {
-    const { amount } = xch;
+  requestedXch.forEach((kop) => {
+    const { amount } = kop;
 
     // For one-sided offers where nothing is requested, we allow the amount to be '0'
     // and skip adding an entry to the walletIdsAndAmounts object.

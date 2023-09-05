@@ -41,7 +41,7 @@ export default function OfferBuilderXCHSection(props: OfferBuilderXCHSectionProp
     let amountWithRoyaltiesLocal = chiaToMojo(amount);
     const rows: Record<string, any>[] = [];
     Object.entries(allRoyalties).forEach(([nftId, royaltyPaymentsLocal]) => {
-      const matchingPayment = royaltyPaymentsLocal?.find((payment) => payment.asset === 'xch');
+      const matchingPayment = royaltyPaymentsLocal?.find((payment) => payment.asset === 'kop');
       if (matchingPayment) {
         amountWithRoyaltiesLocal = amountWithRoyaltiesLocal.plus(matchingPayment.amount);
         rows.push({

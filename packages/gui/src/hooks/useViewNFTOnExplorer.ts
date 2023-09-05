@@ -11,7 +11,7 @@ function getMintGardenURL(nft: NFTInfo, testnet: boolean) {
 }
 
 function getSpacescanURL(nft: NFTInfo, testnet: boolean) {
-  const url = `https://spacescan.io/${testnet ? 'tkop10' : 'xch'}/nft/${nft.$nftId}`;
+  const url = `https://spacescan.io/${testnet ? 'tkop10' : 'kop'}/nft/${nft.$nftId}`;
   return url;
 }
 

@@ -25,7 +25,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           name: 'Chia',
           symbol: 'KOP',
           displayName: 'KOP',
-          assetId: 'xch',
+          assetId: 'kop',
         },
         2: {
           walletId: 2,
@@ -62,13 +62,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          xch: [{ amount: '111.555' }],
+          kop: [{ amount: '111.555' }],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          xch: [],
+          kop: [],
           tokens: [{ amount: '600', assetId: 'f17f88130c63522821f1a75466849354eee69c414c774bd9f3873ab643e9574d' }],
           nfts: [],
           fee: [],
@@ -88,7 +88,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           name: 'Chia',
           symbol: 'KOP',
           displayName: 'KOP',
-          assetId: 'xch',
+          assetId: 'kop',
         },
         2: {
           walletId: 2,
@@ -120,7 +120,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          xch: [],
+          kop: [],
           tokens: [
             {
               amount: '1.234',
@@ -131,7 +131,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           fee: [],
         },
         requested: {
-          xch: [
+          kop: [
             {
               amount: '2',
             },
@@ -154,7 +154,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           name: 'Chia',
           symbol: 'KOP',
           displayName: 'KOP',
-          assetId: 'xch',
+          assetId: 'kop',
         },
       };
 
@@ -179,13 +179,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          xch: [{ amount: '3' }],
+          kop: [{ amount: '3' }],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          xch: [],
+          kop: [],
           tokens: [],
           nfts: [
             {
@@ -221,7 +221,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           name: 'Chia',
           symbol: 'KOP',
           displayName: 'KOP',
-          assetId: 'xch',
+          assetId: 'kop',
         },
         2: {
           walletId: 2,
@@ -252,13 +252,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          xch: [],
+          kop: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          xch: [
+          kop: [
             {
               amount: '0.5',
             },
@@ -299,13 +299,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          xch: [],
+          kop: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          xch: [],
+          kop: [],
           tokens: [],
           nfts: [],
           fee: [],

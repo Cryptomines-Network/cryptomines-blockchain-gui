@@ -39,7 +39,7 @@ export default function useAssetIdName() {
       let isVerified = false;
 
       if (walletType === WalletType.STANDARD_WALLET) {
-        assetId = 'xch';
+        assetId = 'kop';
         name = 'Chia';
         symbol = currencyCode;
         isVerified = true;

@@ -64,8 +64,8 @@ export default function OfferBuilderTradeColumn(props: OfferBuilderTradeColumnPr
   const { name, offering = false, viewer = false, isMyOffer = false } = props;
   const { readOnly } = useOfferBuilderContext();
 
-  const xch = useWatch({
-    name: `${name}.xch`,
+  const kop = useWatch({
+    name: `${name}.kop`,
   });
 
   const nfts = useWatch({
@@ -76,14 +76,14 @@ export default function OfferBuilderTradeColumn(props: OfferBuilderTradeColumnPr
     name: `${name}.tokens`,
   });
 
-  const showXCH = !readOnly || !!xch.length;
+  const showXCH = !readOnly || !!kop.length;
   const showTokensSection = !readOnly || !!tokens.length;
   const showNFTSection = !readOnly || !!nfts.length;
   const showFeeSection = offering || viewer;
 
   const mutedXCH = nfts.length || tokens.length;
-  const mutedTokens = xch.length || nfts.length;
-  const mutedNFTs = xch.length || tokens.length;
+  const mutedTokens = kop.length || nfts.length;
+  const mutedNFTs = kop.length || tokens.length;
 
   return (
     <Flex flexDirection="column" gap={3}>
@@ -104,7 +104,7 @@ export default function OfferBuilderTradeColumn(props: OfferBuilderTradeColumnPr
           padding: 1,
         }}
       >
-        {showXCH && <OfferBuilderXCHSection name={`${name}.xch`} offering={offering} muted={mutedXCH} />}
+        {showXCH && <OfferBuilderXCHSection name={`${name}.kop`} offering={offering} muted={mutedXCH} />}
 
         {showTokensSection && (
           <OfferBuilderTokensSection name={`${name}.tokens`} offering={offering} muted={mutedTokens} />

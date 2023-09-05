@@ -32,7 +32,7 @@
       {
         "name": "Chia KOP Address",
         "schemes": [
-          "xch"
+          "kop"
         ]
       }
     ],

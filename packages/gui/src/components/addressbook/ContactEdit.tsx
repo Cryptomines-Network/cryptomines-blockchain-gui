@@ -220,7 +220,7 @@ export default function ContactEdit() {
     filteredAddresses.forEach((entry) => {
       try {
         if (entry.address[3] === '1') {
-          if (entry.address.slice(0, 3).toLowerCase() !== 'xch') {
+          if (entry.address.slice(0, 3).toLowerCase() !== 'kop') {
             throw new Error();
           } else if (fromBech32m(entry.address).length !== 64) {
             throw new Error();
