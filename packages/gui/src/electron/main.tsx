@@ -71,7 +71,7 @@ let mainWindow: BrowserWindow | null = null;
 let currentDownloadRequest: any;
 let abortDownloadingFiles: boolean = false;
 
-// Set the userData directory to its location within CHIA_ROOT/gui
+// Set the userData directory to its location within CRYPTOMINES_ROOT/gui
 setUserDataDir();
 
 function renderAbout(): string {
