@@ -1,16 +1,16 @@
 const ServiceName = {
-  WALLET: 'chia_wallet',
-  FULL_NODE: 'chia_full_node',
-  FARMER: 'chia_farmer',
-  HARVESTER: 'chia_harvester',
-  SIMULATOR: 'chia_full_node_simulator',
+  WALLET: 'cryptomines_wallet',
+  FULL_NODE: 'cryptomines_full_node',
+  FARMER: 'cryptomines_farmer',
+  HARVESTER: 'cryptomines_harvester',
+  SIMULATOR: 'cryptomines_full_node_simulator',
   DAEMON: 'daemon',
-  PLOTTER: 'chia_plotter',
-  TIMELORD: 'chia_timelord',
-  INTRODUCER: 'chia_introducer',
+  PLOTTER: 'cryptomines_plotter',
+  TIMELORD: 'cryptomines_timelord',
+  INTRODUCER: 'cryptomines_introducer',
   EVENTS: 'wallet_ui',
-  DATALAYER: 'chia_data_layer',
-  DATALAYER_SERVER: 'chia_data_layer_http',
+  DATALAYER: 'cryptomines_data_layer',
+  DATALAYER_SERVER: 'cryptomines_data_layer_http',
 } as const;
 
 type ObjectValues<T> = T[keyof T];

@@ -149,10 +149,10 @@ export default function WalletSend(props: SendCardProps) {
 
     let { address } = data;
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send chia to coloured address. Please enter a chia address.`);
+      throw new Error(t`Cannot send cryptomines to coloured address. Please enter a cryptomines address.`);
     }
 
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'cryptomines_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {

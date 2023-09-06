@@ -10,8 +10,8 @@
     "node": ">=16.15.0"
   },
   "build": {
-    "productName": "chia",
-    "appId": "net.chia.blockchain",
+    "productName": "cryptomines",
+    "appId": "pl.cryptomines.blockchain",
     "asar": true,
     "asarUnpack": "**/daemon/**",
     "npmRebuild": false,
@@ -26,7 +26,7 @@
       {
         "name": "Cryptomines URL",
         "schemes": [
-          "chia"
+          "cryptomines"
         ]
       },
       {
@@ -38,7 +38,7 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "src/assets/img/chia.ico",
+      "icon": "src/assets/img/cryptomines.ico",
       "timeStampServer": "http://timestamp.comodoca.com",
       "executableName": "Cryptomines"
     },
@@ -57,7 +57,7 @@
       "artifactName": "${productName}-${env.CRYPTOMINES_INSTALLER_VERSION}.${ext}",
       "category": "public.app-category.finance",
       "target": "dmg",
-      "icon": "src/assets/img/chia.icns",
+      "icon": "src/assets/img/cryptomines.icns",
       "entitlements": "entitlements.mac.plist",
       "provisioningProfile": "cryptominesblockchain.provisionprofile",
       "darkModeSupport": true,
@@ -87,7 +87,7 @@
     },
     "linux": {
       "artifactName": "${productName}-${env.CRYPTOMINES_INSTALLER_VERSION}.${ext}",
-      "icon": "src/assets/img/chia.icns"
+      "icon": "src/assets/img/cryptomines.icns"
     },
     "deb": {
       "afterInstall": "../../../build_scripts/assets/deb/postinst.sh",
@@ -113,7 +113,7 @@
         "--rpm-rpmbuild-define=_enable_debug_package 0",
         "--rpm-rpmbuild-define=debug_package %{nil}",
         "--rpm-rpmbuild-define=__os_install_post /usr/lib/rpm/brp-compress %{nil}",
-        "--rpm-attr=4755,root,root:/opt/chia/chrome-sandbox"
+        "--rpm-attr=4755,root,root:/opt/cryptomines/chrome-sandbox"
       ]
     }
   },

@@ -82,7 +82,7 @@ Function checkIsChiaRunning
   loop:
     ClearErrors
     ; Check if the main Cryptomines.exe process is running
-    ${nsProcess::FindProcess} "chia.exe" $IsChiaProcessRunning
+    ${nsProcess::FindProcess} "cryptomines.exe" $IsChiaProcessRunning
     ${If} $IsChiaProcessRunning == 0
       ${If} $AlreadyAlerted == 0
         StrCpy $AlreadyAlerted 1
@@ -92,7 +92,7 @@ Function checkIsChiaRunning
       ${EndIf}
     ${EndIf}
 
-    StrCpy $R0 "daemon.exe chia_data_layer.exe start_data_layer.exe chia_data_layer_http.exe start_data_layer_http.exe chia_farmer.exe start_farmer.exe chia_full_node.exe start_full_node.exe chia_harvester.exe start_harvester.exe chia_wallet.exe start_wallet.exe"
+    StrCpy $R0 "daemon.exe cryptomines_data_layer.exe start_data_layer.exe cryptomines_data_layer_http.exe start_data_layer_http.exe cryptomines_farmer.exe start_farmer.exe cryptomines_full_node.exe start_full_node.exe cryptomines_harvester.exe start_harvester.exe cryptomines_wallet.exe start_wallet.exe"
     StrCpy $R3 "" ; Accumulator for the names of all running processes
   processLoop:
     ClearErrors
@@ -139,7 +139,7 @@ FunctionEnd
 
 
 Function checkIsChiaRunningLeave
-  ${nsProcess::FindProcess} "chia.exe" $R0
+  ${nsProcess::FindProcess} "cryptomines.exe" $R0
   Pop $0
 FunctionEnd
 !macroend ; customWelcomePage

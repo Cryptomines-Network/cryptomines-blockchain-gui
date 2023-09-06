@@ -95,8 +95,8 @@ msgstr "Avbryt"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Det går inte att skicka chia till färgad adress. Ange en chia-adress."
+msgid "Cannot send cryptominestomines to coloured address. Please ecryptomines a cryptomines address."
+msgstr "Det går inte att skicka cryptominestomines till färgad adress. Acryptominesen cryptomines-adress."
 
 #: src/components/WalletsSidebar.tsx:130
 #~ msgid "Check my snapshot balance"
@@ -580,8 +580,8 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "Detta är summan av inkommande och utgående väntande transaktioner (som ännu inte inkluderats i blockkedjan). Den innefattar inte odlingsbelöningar."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Detta är den sammanlagda mängden chia i blockkedjan vid det aktuella topp-blocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
+msgid "This is the total amount of cryptominestomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Detta är den sammanlagda mängden cryptominestomines i blockkedjan vid det aktuella topp-blocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."

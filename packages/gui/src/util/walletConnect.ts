@@ -73,11 +73,11 @@ export async function processSessionProposal(
 
     const requiredNamespace = requiredNamespaces.chia;
     if (!requiredNamespace) {
-      throw new Error('Missing required chia namespace');
+      throw new Error('Missing required cryptomines namespace');
     }
 
     const { chains, methods } = requiredNamespace;
-    const chain = chains.find((item) => ['chia:testnet', 'chia:mainnet'].includes(item));
+    const chain = chains.find((item) => ['cryptomines:testnet', 'cryptomines:mainnet'].includes(item));
     if (!chain) {
       throw new Error('Chain not supported');
     }
@@ -100,7 +100,7 @@ export async function processSessionProposal(
 
     const { fingerprints, mainnet } = pair;
     const instance = mainnet ? 'mainnet' : 'testnet';
-    const accounts = fingerprints.map((fingerprint) => `chia:${instance}:${fingerprint}`);
+    const accounts = fingerprints.map((fingerprint) => `cryptomines:${instance}:${fingerprint}`);
 
     const namespaces = {
       chia: {
@@ -211,7 +211,7 @@ export async function processSessionRequest(
     }
 
     const [network, instance] = chainId.split(':');
-    if (network !== 'chia') {
+    if (network !== 'cryptomines') {
       throw new Error('Network not supported');
     }
 

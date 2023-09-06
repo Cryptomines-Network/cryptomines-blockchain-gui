@@ -95,8 +95,8 @@ msgstr "Annulla"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Errore: impossibile inviare chia ad un indirizzo colorato. Perfavore inserisci un indirizzo chia."
+msgid "Cannot send cryptominestomines to coloured address. Please ecryptomines a cryptomines address."
+msgstr "Errore: impossibile inviare cryptominestomines ad un indirizzo colorato. Perfavore inserisci un indcryptomineszo cryptomines."
 
 #: src/components/WalletsSidebar.tsx:130
 #~ msgid "Check my snapshot balance"
@@ -265,7 +265,7 @@ msgstr ""
 
 #: src/components/WalletReceiveAddress.tsx:32
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefore wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
-msgstr "Le chiavi HD (Hierarchical Deterministic) sono un tipo di schema a chiave pubblica/privata dove una chiave privata può avere un numero quasi infinito di chiavi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono utilizzabili da una singola chiave privata."
+msgstr "Le cryptominestominesvi HD (Hierarchical Deterministic) sono un tipo di sccryptomines a cryptominesve pubblica/pricryptomines dove una cryptominesve privata può avere un numecryptominesuasi infinito di cryptominesvi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono cryptominesizzabili da una singola cryptominesve privata."
 
 #: src/components/WalletSendTransactionResultDialog.tsx:41
 msgid "If you would like to speed up the transaction, please delete unconfirmed transactions and retry with a higher fee."
@@ -580,8 +580,8 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "Questa è la somma delle transazioni in sospeso in entrata e in uscita (non ancora incluse nella blockchain). Questo non include le ricompense coltivate."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Questo è l'ammontare totale di chia all'attuale blocco di picco nella blockchain che è controllato dalle tue chiavi private. Ciò include le ricompense da farming congelate, ma non le transazioni pendenti in ingresso e in uscita."
+msgid "This is the total amount of cryptominestomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Questo è l'ammontare totale di cryptominestomines all'attuale blocco di picco nella blockchain che è controllato dalcryptominesue cryptominesvi private. Ciò include le ricompense da farming congelate, ma non le transazioni pendenti in ingresso e in uscita."
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
