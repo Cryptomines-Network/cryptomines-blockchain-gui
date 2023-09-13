@@ -59,7 +59,7 @@ test('Confirm user can add and remove passphrase ', async () => {
   await page.locator('h6:has-text("Jahi 1st Wallet")').click();
   await page.locator('div[role="button"]:has-text("Settings")').click();
 
-  //And I remove passphrase and close cryptomines
+  //And I remove passphrase and close chia
   await page.locator('[data-testid="SettingsPanel-remove-passphrase"]').click();
   await page.locator('input[type="password"]').click();
   await page.locator('input[type="password"]').fill('password2023!@');

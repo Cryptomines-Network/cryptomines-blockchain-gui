@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Flex } from '@cryptomines-network/core';
+import type { Wallet } from '@chia-network/api';
+import { useGetWalletsQuery } from '@chia-network/api-react';
+import { Flex } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import React from 'react';

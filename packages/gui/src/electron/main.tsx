@@ -15,7 +15,7 @@ import fs from 'fs';
 import path from 'path';
 import url from 'url';
 
-import { NFTInfo } from '@cryptomines-network/api';
+import { NFTInfo } from '@chia-network/api';
 import { initialize, enable } from '@electron/remote/main';
 import axios from 'axios';
 import windowStateKeeper from 'electron-window-state';
@@ -27,7 +27,7 @@ import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 // handle setupevents as quickly as possible
 import '../config/env';
 import packageJson from '../../package.json';
-import AppIcon from '../assets/img/cryptomines64x64.png';
+import AppIcon from '../assets/img/chia64x64.png';
 import About from '../components/about/About';
 import { i18n } from '../config/locales';
 import chiaEnvironment from '../util/chiaEnvironment';

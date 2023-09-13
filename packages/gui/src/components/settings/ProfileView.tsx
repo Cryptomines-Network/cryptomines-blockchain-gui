@@ -1,6 +1,6 @@
-import { fromBech32m } from '@cryptomines-network/api';
-import { useGetDIDQuery, useGetDIDNameQuery, useSetDIDNameMutation } from '@cryptomines-network/api-react';
-import { Color, CopyToClipboard, Flex, Suspender, Tooltip, truncateValue } from '@cryptomines-network/core';
+import { fromBech32m } from '@chia-network/api';
+import { useGetDIDQuery, useGetDIDNameQuery, useSetDIDNameMutation } from '@chia-network/api-react';
+import { Color, CopyToClipboard, Flex, Suspender, Tooltip, truncateValue } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { alpha, Box, Card, TextField, Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';

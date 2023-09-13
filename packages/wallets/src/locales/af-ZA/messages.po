@@ -605,7 +605,7 @@ msgid "Error"
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send cryptomines to coloured address. Please enter a cryptomines address."
+msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
 msgstr ""
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
@@ -1536,7 +1536,7 @@ msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (cryptomines per interval): {0}"
+msgid "Spending Limit (chia per interval): {0}"
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:94
@@ -1705,7 +1705,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of cryptomines in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:218

@@ -1,6 +1,6 @@
-import { SyncingStatus } from '@cryptomines-network/api';
-import { useGetSyncStatusQuery } from '@cryptomines-network/api-react';
-import { Loading, State, StateIndicator } from '@cryptomines-network/core';
+import { SyncingStatus } from '@chia-network/api';
+import { useGetSyncStatusQuery } from '@chia-network/api-react';
+import { Loading, State, StateIndicator } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

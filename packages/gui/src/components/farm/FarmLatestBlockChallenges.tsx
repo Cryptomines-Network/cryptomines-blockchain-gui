@@ -1,5 +1,5 @@
-import { useGetSignagePointsQuery, useGetTotalHarvestersSummaryQuery } from '@cryptomines-network/api-react';
-import { Table, Card } from '@cryptomines-network/core';
+import { useGetSignagePointsQuery, useGetTotalHarvestersSummaryQuery } from '@chia-network/api-react';
+import { Table, Card } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

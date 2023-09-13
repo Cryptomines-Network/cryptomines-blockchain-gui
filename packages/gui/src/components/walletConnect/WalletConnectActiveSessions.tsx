@@ -1,4 +1,4 @@
-import { Flex, Loading, TooltipIcon } from '@cryptomines-network/core';
+import { Flex, Loading, TooltipIcon } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React, { useMemo } from 'react';

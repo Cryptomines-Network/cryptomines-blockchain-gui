@@ -1,4 +1,4 @@
-import { type BlockRecord } from '@cryptomines-network/api';
+import { type BlockRecord } from '@chia-network/api';
 import { useRef, useMemo } from 'react';
 
 import useGetLatestBlocksQuery from './useGetLatestBlocksQuery';

@@ -1,5 +1,5 @@
-import { toBech32m, fromBech32m } from '@cryptomines-network/api';
-import { useGetCurrentAddressQuery, useSendNotificationMutation } from '@cryptomines-network/api-react';
+import { toBech32m, fromBech32m } from '@chia-network/api';
+import { useGetCurrentAddressQuery, useSendNotificationMutation } from '@chia-network/api-react';
 import {
   AlertDialog,
   Amount,
@@ -14,7 +14,7 @@ import {
   chiaToMojo,
   useCurrencyCode,
   useOpenDialog,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans, t } from '@lingui/macro';
 import {
   Box,

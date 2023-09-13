@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines-network/core';
+import { Flex } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Link as LinkIcon } from '@mui/icons-material';
 import { Avatar, IconButton, Typography } from '@mui/material';

@@ -1,7 +1,7 @@
-import { TransactionType } from '@cryptomines-network/api';
-import type { Transaction } from '@cryptomines-network/api';
-import { useGetAutoClaimQuery, useGetTimestampForHeightQuery, useGetHeightInfoQuery } from '@cryptomines-network/api-react';
-import { useTrans, Button } from '@cryptomines-network/core';
+import { TransactionType } from '@chia-network/api';
+import type { Transaction } from '@chia-network/api';
+import { useGetAutoClaimQuery, useGetTimestampForHeightQuery, useGetHeightInfoQuery } from '@chia-network/api-react';
+import { useTrans, Button } from '@chia-network/core';
 import { defineMessage } from '@lingui/macro';
 import { AccessTime as AccessTimeIcon } from '@mui/icons-material';
 import { Chip } from '@mui/material';

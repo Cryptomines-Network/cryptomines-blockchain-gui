@@ -1,12 +1,12 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo, type Wallet } from '@cryptomines-network/api';
+import { type NFTInfo, type Wallet } from '@chia-network/api';
 import {
   useLazyGetNFTsCountQuery,
   useLazyGetNFTsQuery,
   useGetNFTWallets,
   useGetLoggedInFingerprintQuery,
-} from '@cryptomines-network/api-react';
+} from '@chia-network/api-react';
 import debug from 'debug';
 import { useState, useCallback, useEffect, useMemo, useRef } from 'react';
 
@@ -17,7 +17,7 @@ import getNFTId from '../../../../util/getNFTId';
 import limit from '../../../../util/limit';
 import { getChangedEventName } from './useNFTDataOnDemand';
 
-const log = debug('cryptomines-gui:useNFTData');
+const log = debug('chia-gui:useNFTData');
 
 type UseNFTDataProps = {
   pageSize?: number;

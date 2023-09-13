@@ -1,5 +1,5 @@
-import api, { store, useGetLoggedInFingerprintQuery } from '@cryptomines-network/api-react';
-import { useOpenDialog, useAuth } from '@cryptomines-network/core';
+import api, { store, useGetLoggedInFingerprintQuery } from '@chia-network/api-react';
+import { useOpenDialog, useAuth } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import debug from 'debug';
 import React, { type ReactNode } from 'react';
@@ -15,7 +15,7 @@ import waitForWalletSync from '../util/waitForWalletSync';
 import useWalletConnectPairs from './useWalletConnectPairs';
 import useWalletConnectPreferences from './useWalletConnectPreferences';
 
-const log = debug('cryptomines-gui:walletConnectCommand');
+const log = debug('chia-gui:walletConnectCommand');
 
 type UseWalletConnectCommandOptions = {
   onNotification?: (notification: Notification) => void;

@@ -1,4 +1,4 @@
-import { useVerifySignatureMutation } from '@cryptomines-network/api-react';
+import { useVerifySignatureMutation } from '@chia-network/api-react';
 import {
   AlertDialog,
   Button,
@@ -10,7 +10,7 @@ import {
   Truncate,
   useOpenDialog,
   // useShowError,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import {

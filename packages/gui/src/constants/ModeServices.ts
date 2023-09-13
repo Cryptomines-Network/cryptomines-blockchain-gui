@@ -1,5 +1,5 @@
-import { ServiceName } from '@cryptomines-network/api';
-import { Mode } from '@cryptomines-network/core';
+import { ServiceName } from '@chia-network/api';
+import { Mode } from '@chia-network/core';
 
 export default {
   [Mode.WALLET]: [ServiceName.WALLET],

@@ -4,7 +4,7 @@ import {
   useGetLoggedInFingerprintQuery,
   useLazyGetProofsForRootQuery,
   useVCCoinAdded,
-} from '@cryptomines-network/api-react';
+} from '@chia-network/api-react';
 import {
   Flex,
   More,
@@ -15,14 +15,14 @@ import {
   useDarkMode,
   LayoutDashboardSub,
   ScrollbarVirtuoso,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import {
   VCZeroStateBackground as VCZeroStateBackgroundIcon,
   VCZeroStateBackgroundDark as VCZeroStateBackgroundDarkIcon,
   VCZeroStateBadge as VCZeroStateBadgeIcon,
   VCZeroStateKYCBadge as VCZeroStateKYCBadgeIcon,
   VCZeroStateMembership as VCZeroStateMembershipIcon,
-} from '@cryptomines-network/icons';
+} from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

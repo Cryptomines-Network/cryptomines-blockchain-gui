@@ -1,5 +1,5 @@
-import { OfferTradeRecord, toBech32m } from '@cryptomines-network/api';
-import { useCancelOfferMutation, useGetWalletsQuery } from '@cryptomines-network/api-react';
+import { OfferTradeRecord, toBech32m } from '@chia-network/api';
+import { useCancelOfferMutation, useGetWalletsQuery } from '@chia-network/api-react';
 import {
   Button,
   Card,
@@ -15,7 +15,7 @@ import {
   Tooltip,
   LayoutDashboardSub,
   MenuItem,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Cancel, GetApp as Download, Info, Reply as Share, Visibility } from '@mui/icons-material';
 import { Box, Chip, Grid, ListItemIcon, Typography } from '@mui/material';

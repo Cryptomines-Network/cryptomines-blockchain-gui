@@ -1,6 +1,6 @@
 {
-  "name": "@cryptomines-network/api",
-  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
+  "name": "@chia-network/api",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://chiablockchain.pl/)",
   "description": "Cryptomines API Library",
   "productName": "Cryptomines Blockchain",
   "version": "1.0.0",

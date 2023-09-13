@@ -15,7 +15,7 @@ export default function WalletStandardCards(props: Props) {
       walletId={walletId}
       totalBalanceTooltip={
         <Trans>
-          This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your
+          This is the total amount of chia in the blockchain at the current peak block that is controlled by your
           private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions.
         </Trans>
       }

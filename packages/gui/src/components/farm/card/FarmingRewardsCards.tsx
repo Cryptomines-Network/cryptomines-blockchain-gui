@@ -1,5 +1,5 @@
-import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@cryptomines-network/api-react';
-import { State, CardSimple, useCurrencyCode, mojoToChiaLocaleString, useLocale } from '@cryptomines-network/core';
+import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@chia-network/api-react';
+import { State, CardSimple, useCurrencyCode, mojoToChiaLocaleString, useLocale } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography, Box } from '@mui/material';
 import BigNumber from 'bignumber.js';

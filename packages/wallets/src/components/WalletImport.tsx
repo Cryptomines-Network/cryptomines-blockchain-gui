@@ -1,5 +1,5 @@
-import { english } from '@cryptomines-network/api';
-import { useAddPrivateKeyMutation } from '@cryptomines-network/api-react';
+import { english } from '@chia-network/api';
+import { useAddPrivateKeyMutation } from '@chia-network/api-react';
 import {
   AlertDialog,
   Autocomplete,
@@ -12,7 +12,7 @@ import {
   useTrans,
   TextField,
   useAuth,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Container, Grid } from '@mui/material';
 import React from 'react';

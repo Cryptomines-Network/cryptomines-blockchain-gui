@@ -1,4 +1,4 @@
-import { Harvester } from '@cryptomines-network/api';
+import { Harvester } from '@chia-network/api';
 
 import api, { baseQuery } from '../api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';

@@ -1,12 +1,12 @@
-import type { KeyData } from '@cryptomines-network/api';
+import type { KeyData } from '@chia-network/api';
 import {
   usePrefs,
   useGetKeyringStatusQuery,
   useDeleteAllKeysMutation,
   useGetKeysQuery,
   type Serializable,
-} from '@cryptomines-network/api-react';
-import { ChiaBlack, Coins } from '@cryptomines-network/icons';
+} from '@chia-network/api-react';
+import { ChiaBlack, Coins } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Alert, Typography, Container, ListItemIcon } from '@mui/material';

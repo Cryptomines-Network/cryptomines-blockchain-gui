@@ -6,14 +6,14 @@ import {
   ServiceName,
   ServiceNameValue,
   PassphrasePromptReason,
-} from '@cryptomines-network/api';
+} from '@chia-network/api';
 import {
   useCloseMutation,
   useGetStateQuery,
   useGetKeyringStatusQuery,
   useServices,
   useGetVersionQuery,
-} from '@cryptomines-network/api-react';
+} from '@chia-network/api-react';
 import {
   Flex,
   LayoutHero,
@@ -23,7 +23,7 @@ import {
   useIsSimulator,
   useAppVersion,
   useCurrencyCode,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Collapse } from '@mui/material';
 import isElectron from 'is-electron';

@@ -1,6 +1,6 @@
 import { AssetStatusForOffer } from 'util/offerBuilderDataToOffer';
 
-import { OfferSummaryRecord, WalletType } from '@cryptomines-network/api';
+import { OfferSummaryRecord, WalletType } from '@chia-network/api';
 import { t } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import { OfferTradeRecordFormatted } from 'hooks/useWalletOffers';

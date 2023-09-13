@@ -1,5 +1,5 @@
-import { store, walletApi } from '@cryptomines-network/api-react';
-import { isValidURL } from '@cryptomines-network/core';
+import { store, walletApi } from '@chia-network/api-react';
+import { isValidURL } from '@chia-network/core';
 
 import OfferServices from '../constants/OfferServices';
 import offerToOfferBuilderData from './offerToOfferBuilderData';

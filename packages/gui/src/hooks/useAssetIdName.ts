@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
-import type { CATToken, Wallet } from '@cryptomines-network/core';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import { WalletType } from '@chia-network/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@chia-network/api-react';
+import type { CATToken, Wallet } from '@chia-network/core';
+import { useCurrencyCode } from '@chia-network/core';
 import { useMemo, useRef, useCallback } from 'react';
 
 export type AssetIdMapEntry = {

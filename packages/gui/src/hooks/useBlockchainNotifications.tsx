@@ -1,11 +1,11 @@
-import { SyncingStatus } from '@cryptomines-network/api';
+import { SyncingStatus } from '@chia-network/api';
 import {
   useGetNotificationsQuery,
   useDeleteNotificationsMutation,
   useLazyGetTimestampForHeightQuery,
-} from '@cryptomines-network/api-react';
-import { ConfirmDialog, useOpenDialog, useAuth } from '@cryptomines-network/core';
-import { useWalletState } from '@cryptomines-network/wallets';
+} from '@chia-network/api-react';
+import { ConfirmDialog, useOpenDialog, useAuth } from '@chia-network/core';
+import { useWalletState } from '@chia-network/wallets';
 import { Trans } from '@lingui/macro';
 import debug from 'debug';
 import { orderBy } from 'lodash';
@@ -15,7 +15,7 @@ import type Notification from '../@types/Notification';
 import NotificationType from '../constants/NotificationType';
 import useStateAbort from './useStateAbort';
 
-const log = debug('cryptomines-gui:useNotifications');
+const log = debug('chia-gui:useNotifications');
 
 type BlockchainNotification = {
   id: string;

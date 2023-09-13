@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines-network/core';
-import { Offering, Requesting } from '@cryptomines-network/icons';
+import { Flex } from '@chia-network/core';
+import { Offering, Requesting } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useWatch } from 'react-hook-form';

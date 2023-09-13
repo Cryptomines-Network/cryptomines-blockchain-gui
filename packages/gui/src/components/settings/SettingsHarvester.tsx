@@ -1,12 +1,12 @@
-import { ServiceName, HarvesterConfig } from '@cryptomines-network/api';
+import { ServiceName, HarvesterConfig } from '@chia-network/api';
 import {
   useGetHarvesterConfigQuery,
   useGetPlottersQuery,
   useUpdateHarvesterConfigMutation,
   useStartServiceMutation,
   useStopServiceMutation,
-} from '@cryptomines-network/api-react';
-import { ButtonLoading, Flex, SettingsSection, SettingsTitle, SettingsText } from '@cryptomines-network/core';
+} from '@chia-network/api-react';
+import { ButtonLoading, Flex, SettingsSection, SettingsTitle, SettingsText } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { Alert, Divider, FormControlLabel, Grid, Switch, TextField, Snackbar } from '@mui/material';

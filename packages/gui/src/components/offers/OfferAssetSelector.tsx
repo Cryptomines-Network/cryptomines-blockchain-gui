@@ -1,7 +1,7 @@
-import type { Wallet, CATToken } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Select, useCurrencyCode } from '@cryptomines-network/core';
+import type { Wallet, CATToken } from '@chia-network/api';
+import { WalletType } from '@chia-network/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@chia-network/api-react';
+import { Select, useCurrencyCode } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem } from '@mui/material';
 import React, { useMemo } from 'react';

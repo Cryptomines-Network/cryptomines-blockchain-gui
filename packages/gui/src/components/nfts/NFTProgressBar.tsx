@@ -1,4 +1,4 @@
-import { Color } from '@cryptomines-network/core';
+import { Color } from '@chia-network/core';
 import { Box } from '@mui/material';
 import React from 'react';
 import styled from 'styled-components';

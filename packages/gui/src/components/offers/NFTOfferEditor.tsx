@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { NFTInfo } from '@cryptomines-network/api';
-import { useCreateOfferForIdsMutation, useGetWalletBalanceQuery } from '@cryptomines-network/api-react';
+import { WalletType } from '@chia-network/api';
+import type { NFTInfo } from '@chia-network/api';
+import { useCreateOfferForIdsMutation, useGetWalletBalanceQuery } from '@chia-network/api-react';
 import {
   Amount,
   AmountProps,
@@ -27,7 +27,7 @@ import {
   useLocale,
   useOpenDialog,
   useShowError,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans, t } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { alpha, Box, Divider, Grid, Tabs, Tab, Typography, useTheme } from '@mui/material';

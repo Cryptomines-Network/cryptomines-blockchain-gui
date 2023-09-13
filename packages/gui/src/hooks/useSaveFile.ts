@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { useShowSaveDialog } from '@cryptomines-network/core';
+import { useShowSaveDialog } from '@chia-network/core';
 import { useCallback } from 'react';
 
 export type SaveFileParams = {

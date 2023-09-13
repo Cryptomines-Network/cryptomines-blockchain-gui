@@ -1,4 +1,4 @@
-import { useGetWalletAddressesQuery } from '@cryptomines-network/api-react';
+import { useGetWalletAddressesQuery } from '@chia-network/api-react';
 import { useMemo } from 'react';
 
 export default function useWalletKeyAddresses() {

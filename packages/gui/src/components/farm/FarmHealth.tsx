@@ -5,8 +5,8 @@ import {
   useResetMissingSignagePointsMutation,
   useResetFilterChallengeStatMutation,
   useGetPartialStatsOffsetQuery,
-} from '@cryptomines-network/api-react';
-import { Flex, StateIndicator, State, Tooltip } from '@cryptomines-network/core';
+} from '@chia-network/api-react';
+import { Flex, StateIndicator, State, Tooltip } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Paper, Typography, CircularProgress } from '@mui/material';
 import React from 'react';

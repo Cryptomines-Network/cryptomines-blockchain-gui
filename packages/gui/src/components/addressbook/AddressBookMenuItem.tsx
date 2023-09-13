@@ -1,5 +1,5 @@
-// import { useGetNFTInfoQuery } from '@cryptomines-network/api-react';
-import { CardListItem, Flex } from '@cryptomines-network/core';
+// import { useGetNFTInfoQuery } from '@chia-network/api-react';
+import { CardListItem, Flex } from '@chia-network/core';
 import { t } from '@lingui/macro';
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';

@@ -1,5 +1,5 @@
-import { useGetNetworkInfoQuery } from '@cryptomines-network/api-react';
-import { CardSimple } from '@cryptomines-network/core';
+import { useGetNetworkInfoQuery } from '@chia-network/api-react';
+import { CardSimple } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

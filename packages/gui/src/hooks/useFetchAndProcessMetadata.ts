@@ -6,7 +6,7 @@ import compareChecksums from '../util/compareChecksums';
 import parseFileContent from '../util/parseFileContent';
 import useCache from './useCache';
 
-const log = debug('cryptomines-gui:useFetchAndProcessMetadata');
+const log = debug('chia-gui:useFetchAndProcessMetadata');
 
 export default function useFetchAndProcessMetadata() {
   const { getChecksum, getHeaders, getContent } = useCache();

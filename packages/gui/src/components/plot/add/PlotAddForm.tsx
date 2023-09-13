@@ -1,6 +1,6 @@
-import { defaultPlotter, toBech32m, fromBech32m, WalletCreatePool } from '@cryptomines-network/api';
-import { useStartPlottingMutation, useCreateNewPoolWalletMutation } from '@cryptomines-network/api-react';
-import { Back, useShowError, ButtonLoading, Flex, Form } from '@cryptomines-network/core';
+import { defaultPlotter, toBech32m, fromBech32m, WalletCreatePool } from '@chia-network/api';
+import { useStartPlottingMutation, useCreateNewPoolWalletMutation } from '@chia-network/api-react';
+import { Back, useShowError, ButtonLoading, Flex, Form } from '@chia-network/core';
 import { t, Trans } from '@lingui/macro';
 import React, { useState, useEffect, useRef } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';

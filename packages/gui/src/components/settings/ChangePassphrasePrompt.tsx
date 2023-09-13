@@ -2,7 +2,7 @@ import {
   useGetKeyringStatusQuery,
   useRemoveKeyringPassphraseMutation,
   useSetKeyringPassphraseMutation,
-} from '@cryptomines-network/api-react';
+} from '@chia-network/api-react';
 import {
   AlertDialog,
   Button,
@@ -15,7 +15,7 @@ import {
   Form,
   TextField,
   Checkbox,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { t, Trans } from '@lingui/macro';
 import {
   Help as HelpIcon,

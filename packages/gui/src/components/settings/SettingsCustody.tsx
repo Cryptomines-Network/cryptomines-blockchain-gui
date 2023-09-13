@@ -1,5 +1,5 @@
-import { useLocalStorage } from '@cryptomines-network/api-react';
-import { Flex, SettingsHR, SettingsSection, SettingsText } from '@cryptomines-network/core';
+import { useLocalStorage } from '@chia-network/api-react';
+import { Flex, SettingsHR, SettingsSection, SettingsText } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Box } from '@mui/material';
 import React from 'react';

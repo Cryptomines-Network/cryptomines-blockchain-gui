@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo } from '@cryptomines-network/api';
+import { type NFTInfo } from '@chia-network/api';
 import debug from 'debug';
 import { useState, useCallback, useMemo } from 'react';
 
@@ -10,7 +10,7 @@ import type MetadataState from '../../../../@types/MetadataState';
 import useFetchAndProcessMetadata from '../../../../hooks/useFetchAndProcessMetadata';
 import getNFTId from '../../../../util/getNFTId';
 
-const log = debug('cryptomines-gui:NFTProvider:useMetadataData');
+const log = debug('chia-gui:NFTProvider:useMetadataData');
 
 function getChangedEventName(nftId: string) {
   return `metadataChanged:${nftId}`;

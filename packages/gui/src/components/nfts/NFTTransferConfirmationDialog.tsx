@@ -6,7 +6,7 @@ import {
   Flex,
   TooltipIcon,
   FormatLargeNumber,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans, Plural } from '@lingui/macro';
 import { alpha, Box, Divider, Typography } from '@mui/material';
 import React, { type ReactNode } from 'react';

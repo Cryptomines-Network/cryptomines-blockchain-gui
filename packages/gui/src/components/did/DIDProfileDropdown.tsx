@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetDIDsQuery } from '@cryptomines-network/api-react';
-import { DropdownActions, DropdownActionsProps, MenuItem } from '@cryptomines-network/core';
+import type { Wallet } from '@chia-network/api';
+import { useGetDIDsQuery } from '@chia-network/api-react';
+import { DropdownActions, DropdownActionsProps, MenuItem } from '@chia-network/core';
 import { Trans, t } from '@lingui/macro';
 import { PermIdentity as PermIdentityIcon } from '@mui/icons-material';
 import { ListItemIcon } from '@mui/material';

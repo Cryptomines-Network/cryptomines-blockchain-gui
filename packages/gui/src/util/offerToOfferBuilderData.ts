@@ -1,5 +1,5 @@
-import { OfferSummaryRecord } from '@cryptomines-network/api';
-import { mojoToCAT, mojoToChia } from '@cryptomines-network/core';
+import { OfferSummaryRecord } from '@chia-network/api';
+import { mojoToCAT, mojoToChia } from '@chia-network/core';
 import BigNumber from 'bignumber.js';
 
 import type OfferBuilderData from '../@types/OfferBuilderData';

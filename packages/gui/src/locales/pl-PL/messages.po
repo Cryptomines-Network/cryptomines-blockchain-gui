@@ -4464,7 +4464,7 @@ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
 msgid "Total Cryptomines Farmed"
-msgstr "Łączna ilość cryptomines"
+msgstr "Łączna ilość chia"
 
 #: src/components/plot/card/PlotCardTotalHarvesters.tsx:11
 msgid "Total Harvesters"

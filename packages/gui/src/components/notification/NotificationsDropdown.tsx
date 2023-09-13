@@ -1,5 +1,5 @@
-import { DropdownBase, Tooltip } from '@cryptomines-network/core';
-import { Notification as NotificationIcon } from '@cryptomines-network/icons';
+import { DropdownBase, Tooltip } from '@chia-network/core';
+import { Notification as NotificationIcon } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
 import { Badge, Box, Button } from '@mui/material';
 import React from 'react';

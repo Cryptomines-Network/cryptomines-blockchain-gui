@@ -2,7 +2,7 @@ import {
   useCreateNewWalletMutation,
   useGetCurrentAddressQuery,
   useGetWalletBalanceQuery,
-} from '@cryptomines-network/api-react';
+} from '@chia-network/api-react';
 import {
   ButtonLoading,
   EstimatedFee,
@@ -14,7 +14,7 @@ import {
   chiaToMojo,
   mojoToChiaLocaleString,
   useCurrencyCode,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Trans, t } from '@lingui/macro';
 import { Card, Typography } from '@mui/material';
 import React from 'react';
@@ -68,7 +68,7 @@ export default function ProfileAdd() {
   const canCreateProfile = (balance?.spendableBalance ?? 0) > 0;
 
   function handleClick() {
-    const url = `https://${isTestnet ? 'testnet10-faucet.cryptominesblockchain.pl' : 'faucet.cryptominesblockchain.pl'}/?address=${currentAddress}`;
+    const url = `https://${isTestnet ? 'testnet10-faucet.chiablockchain.pl' : 'faucet.chiablockchain.pl'}/?address=${currentAddress}`;
     openExternal(url);
   }
 

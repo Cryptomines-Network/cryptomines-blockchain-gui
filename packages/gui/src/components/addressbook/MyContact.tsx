@@ -1,6 +1,6 @@
-// import { useGetNFTInfoQuery } from '@cryptomines-network/api-react';
-import { useGetKeysQuery, usePrefs, type Serializable } from '@cryptomines-network/api-react';
-import { CopyToClipboard, Flex } from '@cryptomines-network/core';
+// import { useGetNFTInfoQuery } from '@chia-network/api-react';
+import { useGetKeysQuery, usePrefs, type Serializable } from '@chia-network/api-react';
+import { CopyToClipboard, Flex } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { InputAdornment, TextField, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

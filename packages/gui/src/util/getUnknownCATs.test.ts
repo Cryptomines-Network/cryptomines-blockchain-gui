@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines-network/api';
+import { WalletType } from '@chia-network/api';
 
 import getUnknownCATs from './getUnknownCATs';
 

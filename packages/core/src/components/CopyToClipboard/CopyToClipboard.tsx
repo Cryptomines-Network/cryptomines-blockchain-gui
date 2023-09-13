@@ -1,4 +1,4 @@
-import { Copy as AssignmentIcon } from '@cryptomines-network/icons';
+import { Copy as AssignmentIcon } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
 import { Tooltip, IconButton } from '@mui/material';
 import React, { useState } from 'react';

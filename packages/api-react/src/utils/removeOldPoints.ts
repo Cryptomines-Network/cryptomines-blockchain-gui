@@ -1,4 +1,4 @@
-import type { Point } from '@cryptomines-network/api';
+import type { Point } from '@chia-network/api';
 
 const DAY_SECONDS = 60 * 60 * 24;
 

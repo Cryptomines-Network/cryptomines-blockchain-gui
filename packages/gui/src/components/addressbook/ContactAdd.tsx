@@ -1,5 +1,5 @@
-import { fromBech32m } from '@cryptomines-network/api';
-import { AddressBookContext, Color, EmojiAndColorPicker, Form, TextField, TooltipIcon, Flex } from '@cryptomines-network/core';
+import { fromBech32m } from '@chia-network/api';
+import { AddressBookContext, Color, EmojiAndColorPicker, Form, TextField, TooltipIcon, Flex } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Button, IconButton, Typography, Box } from '@mui/material';
@@ -242,7 +242,7 @@ export default function ContactAdd() {
     });
     filteredProfiles.forEach((entry) => {
       try {
-        if (entry.did.slice(0, 9).toLowerCase() !== 'did:cryptomines:') {
+        if (entry.did.slice(0, 9).toLowerCase() !== 'did:chia:') {
           throw new Error();
         } else if (fromBech32m(entry.did).length !== 64) {
           throw new Error();

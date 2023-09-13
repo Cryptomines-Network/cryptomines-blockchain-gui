@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { Wallet } from '@cryptomines-network/api';
+import { WalletType } from '@chia-network/api';
+import type { Wallet } from '@chia-network/api';
 
 export default function getWalletPrimaryTitle(wallet: Wallet): string {
   switch (wallet.type) {

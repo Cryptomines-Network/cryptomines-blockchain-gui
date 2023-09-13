@@ -1,4 +1,4 @@
-import { Flex, useOpenDialog, Mute } from '@cryptomines-network/core';
+import { Flex, useOpenDialog, Mute } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { InsertComment as InsertCommentIcon, Link as LinkIcon } from '@mui/icons-material';
 import { Typography } from '@mui/material';

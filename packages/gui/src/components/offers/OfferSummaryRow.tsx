@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines-network/api';
+import { WalletType } from '@chia-network/api';
 import {
   Color,
   CopyToClipboard,
@@ -7,7 +7,7 @@ import {
   FormatLargeNumber,
   TooltipIcon,
   mojoToCATLocaleString,
-} from '@cryptomines-network/core';
+} from '@chia-network/core';
 import { Plural, t, Trans } from '@lingui/macro';
 import { alpha, Box, Typography } from '@mui/material';
 import React from 'react';

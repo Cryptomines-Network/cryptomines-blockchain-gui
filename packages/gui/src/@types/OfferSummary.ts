@@ -1,3 +1,3 @@
-import { type OfferSummaryRecord } from '@cryptomines-network/api';
+import { type OfferSummaryRecord } from '@chia-network/api';
 
 export default OfferSummaryRecord;

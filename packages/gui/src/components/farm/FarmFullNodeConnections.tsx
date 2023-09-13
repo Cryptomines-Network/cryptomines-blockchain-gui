@@ -1,7 +1,7 @@
-import type { Connection } from '@cryptomines-network/api';
-import { ServiceName } from '@cryptomines-network/api';
-import { useGetFarmerFullNodeConnectionsQuery, useService } from '@cryptomines-network/api-react';
-import { Table, Card, FormatBytes, FormatConnectionStatus } from '@cryptomines-network/core';
+import type { Connection } from '@chia-network/api';
+import { ServiceName } from '@chia-network/api';
+import { useGetFarmerFullNodeConnectionsQuery, useService } from '@chia-network/api-react';
+import { Table, Card, FormatBytes, FormatConnectionStatus } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Link, Typography, Tooltip, IconButton } from '@mui/material';

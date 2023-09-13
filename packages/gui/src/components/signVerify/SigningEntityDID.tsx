@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetDIDInfoQuery, useGetDIDsQuery } from '@cryptomines-network/api-react';
-import { CopyToClipboard, Flex, TextField } from '@cryptomines-network/core';
+import type { Wallet } from '@chia-network/api';
+import { useGetDIDInfoQuery, useGetDIDsQuery } from '@chia-network/api-react';
+import { CopyToClipboard, Flex, TextField } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { InputAdornment } from '@mui/material';
 import React, { useEffect, useState } from 'react';
