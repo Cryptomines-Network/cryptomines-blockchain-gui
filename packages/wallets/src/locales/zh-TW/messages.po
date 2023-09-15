@@ -95,7 +95,7 @@ msgstr "取消"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send cryptomines to coloured address. Please enter a cryptomines address."
+msgid "Cannot send chia to coloured address. Please enter a chia address."
 msgstr "不能寄送奇亞到有色地址。請輸入奇亞地址。"
 
 #: src/components/WalletsSidebar.tsx:130
@@ -582,7 +582,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "這是匯入和匯出的未結交易的總和（還沒包含在區塊鏈中）。這不包括耕種獎勵。"
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:30

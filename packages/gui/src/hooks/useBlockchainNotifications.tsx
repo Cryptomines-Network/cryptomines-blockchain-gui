@@ -15,7 +15,7 @@ import type Notification from '../@types/Notification';
 import NotificationType from '../constants/NotificationType';
 import useStateAbort from './useStateAbort';
 
-const log = debug('cryptomines-gui:useNotifications');
+const log = debug('chia-gui:useNotifications');
 
 type BlockchainNotification = {
   id: string;

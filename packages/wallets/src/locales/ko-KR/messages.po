@@ -95,7 +95,7 @@ msgstr "취소"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send cryptomines to coloured address. Please enter a cryptomines address."
+msgid "Cannot send chia to coloured address. Please enter a chia address."
 msgstr ""
 
 #: src/components/WalletsSidebar.tsx:130
@@ -580,7 +580,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "이것은 들어오고 나가는 보류 트랜잭션의 합계입니다 (아직 블록 체인에 포함되지 않음). 여기에는 농업 보상이 포함되지 않습니다."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:30

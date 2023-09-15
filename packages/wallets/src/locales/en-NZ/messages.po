@@ -95,8 +95,8 @@ msgstr "Cancel"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send cryptomines to coloured address. Please enter a cryptomines address."
-msgstr "Cannot send cryptomines to coloured address. Please enter a cryptomines address."
+msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgstr "Cannot send chia to coloured address. Please enter a chia address."
 
 #: src/components/WalletsSidebar.tsx:130
 #~ msgid "Check my snapshot balance"
@@ -580,8 +580,8 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."

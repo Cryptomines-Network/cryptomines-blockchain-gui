@@ -95,7 +95,7 @@ msgstr "取消"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send cryptominestomines to coloured address. Please ecryptomines a cryptomines address."
+msgid "Cannot send chiatomines to coloured address. Please echia a chia address."
 msgstr "错误: 无法发送奇亚到上色的地址. 请输入一个奇亚钱包地址."
 
 #: src/components/WalletsSidebar.tsx:130
@@ -580,7 +580,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "待处理的收入与支出总和(还未上链). 不包括农场耕种奖励."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of cryptominestomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chiatomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "这里是你的私钥所控制的，到目前最新子块高度为止的全部奇亚数。包含被冻结的耕种奖励， 但不包含待处理的收入与支出。"
 
 #: src/components/standard/WalletStandardCards.tsx:30

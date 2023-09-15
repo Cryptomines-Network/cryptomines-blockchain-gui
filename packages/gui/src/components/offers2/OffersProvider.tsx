@@ -23,7 +23,7 @@ export const OffersContext = createContext<
   | undefined
 >(undefined);
 
-const log = debug('cryptomines-gui:OfferProvider');
+const log = debug('chia-gui:OfferProvider');
 
 export function getChangedEventName(id: string) {
   return `offerChanged:${id}`;

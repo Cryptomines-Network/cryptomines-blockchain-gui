@@ -1,7 +1,7 @@
 import ChildProcess from 'child_process';
 
 export function runWalletCommandWithArgs(commandArgs: string[]): string {
-  const command = 'cryptomines';
+  const command = 'chia';
   const args = ['wallet', ...commandArgs];
   const cli = `${command} ${args.join(' ')}`;
 
@@ -34,7 +34,7 @@ export function getWalletBalance(fingerprint: string | number): string | undefin
 }
 
 export function stopAllChia() {
-  const command = 'cryptomines';
+  const command = 'chia';
   ChildProcess.spawnSync(command, ['stop', 'all', '-d'], { stdio: 'pipe' });
   console.log(command);
 }

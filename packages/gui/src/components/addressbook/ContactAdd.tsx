@@ -242,7 +242,7 @@ export default function ContactAdd() {
     });
     filteredProfiles.forEach((entry) => {
       try {
-        if (entry.did.slice(0, 9).toLowerCase() !== 'did:cryptomines:') {
+        if (entry.did.slice(0, 9).toLowerCase() !== 'did:chia:') {
           throw new Error();
         } else if (fromBech32m(entry.did).length !== 64) {
           throw new Error();

@@ -15,7 +15,7 @@ import waitForWalletSync from '../util/waitForWalletSync';
 import useWalletConnectPairs from './useWalletConnectPairs';
 import useWalletConnectPreferences from './useWalletConnectPreferences';
 
-const log = debug('cryptomines-gui:walletConnectCommand');
+const log = debug('chia-gui:walletConnectCommand');
 
 type UseWalletConnectCommandOptions = {
   onNotification?: (notification: Notification) => void;

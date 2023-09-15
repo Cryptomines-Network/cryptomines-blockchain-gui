@@ -95,7 +95,7 @@ msgstr "Отмена"
 
 #: src/components/cat/WalletCATSend.tsx:117
 #: src/components/WalletSend.tsx:142
-msgid "Cannot send cryptomines to coloured address. Please enter a cryptomines address."
+msgid "Cannot send chia to coloured address. Please enter a chia address."
 msgstr "Не удается отправить Cryptomines по цветному адресу. Пожалуйста, введите обычный адрес Cryptomines."
 
 #: src/components/WalletsSidebar.tsx:130
@@ -580,7 +580,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "Здесь рассчитана сумма входящих и исходящих ожидающих транзакций (еще не включенных в цепь блоков). Награды за фарминг не включены в сумму."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Это общее количество монет чиа в блокчейне в текущем пиковом блоке, который контролируется вашими закрытыми ключами. Он включает в себя замороженные вознаграждения за фарминг, но не ожидающие входящие и исходящие транзакции."
 
 #: src/components/standard/WalletStandardCards.tsx:30

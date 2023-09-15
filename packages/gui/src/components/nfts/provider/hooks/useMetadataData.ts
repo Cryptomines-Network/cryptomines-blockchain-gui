@@ -10,7 +10,7 @@ import type MetadataState from '../../../../@types/MetadataState';
 import useFetchAndProcessMetadata from '../../../../hooks/useFetchAndProcessMetadata';
 import getNFTId from '../../../../util/getNFTId';
 
-const log = debug('cryptomines-gui:NFTProvider:useMetadataData');
+const log = debug('chia-gui:NFTProvider:useMetadataData');
 
 function getChangedEventName(nftId: string) {
   return `metadataChanged:${nftId}`;
