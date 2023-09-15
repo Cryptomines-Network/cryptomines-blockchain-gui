@@ -1,4 +1,4 @@
-import { isValidURL } from '@chia-network/core';
+import { isValidURL } from '@cryptomines-network/core';
 import { t } from '@lingui/macro';
 import { useAsync } from 'react-use';
 

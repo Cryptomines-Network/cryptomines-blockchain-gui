@@ -1,5 +1,5 @@
-import { OfferCoinOfInterest, OfferSummaryRecord } from '@chia-network/api';
-import { useGetOffersCountQuery, useGetAllOffersQuery } from '@chia-network/api-react';
+import { OfferCoinOfInterest, OfferSummaryRecord } from '@cryptomines-network/api';
+import { useGetOffersCountQuery, useGetAllOffersQuery } from '@cryptomines-network/api-react';
 import { useState, useCallback } from 'react';
 
 export type OfferTradeRecordFormatted = {

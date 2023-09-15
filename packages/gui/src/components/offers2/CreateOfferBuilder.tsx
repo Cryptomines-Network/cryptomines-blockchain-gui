@@ -1,6 +1,6 @@
-import { WalletType } from '@chia-network/api';
-import { useGetWalletsQuery, useCreateOfferForIdsMutation } from '@chia-network/api-react';
-import { Flex, ButtonLoading, useOpenDialog, Loading } from '@chia-network/core';
+import { WalletType } from '@cryptomines-network/api';
+import { useGetWalletsQuery, useCreateOfferForIdsMutation } from '@cryptomines-network/api-react';
+import { Flex, ButtonLoading, useOpenDialog, Loading } from '@cryptomines-network/core';
 import { t, Trans } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import React, { useRef, useMemo, useCallback } from 'react';

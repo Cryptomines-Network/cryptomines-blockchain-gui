@@ -1,10 +1,10 @@
-import * as chiaCore from '@chia-network/core';
+import * as chiaCore from '@cryptomines-network/core';
 import BigNumber from 'bignumber.js';
 
 import { AssetIdMapEntry } from '../hooks/useAssetIdName';
 import createOfferForIdsToOfferBuilderData from './createOfferForIdsToOfferBuilderData';
 
-jest.mock('@chia-network/core', () => ({
+jest.mock('@cryptomines-network/core', () => ({
   mojoToChia: jest.fn(),
   mojoToCAT: jest.fn(),
 }));
@@ -48,7 +48,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
         2: 600_000,
       };
 
-      jest.mock('@chia-network/core', () => ({
+      jest.mock('@cryptomines-network/core', () => ({
         mojoToChia: jest.fn(),
         mojoToCAT: jest.fn(),
       }));

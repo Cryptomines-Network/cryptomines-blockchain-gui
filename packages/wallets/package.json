@@ -1,5 +1,5 @@
 {
-  "name": "@chia-network/wallets",
+  "name": "@cryptomines-network/wallets",
   "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://chiablockchain.pl/)",
   "description": "Cryptomines wallets Library",
   "version": "1.0.0",
@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "@babel/runtime": "7.22.6",
-    "@chia-network/api": "1.0.0",
-    "@chia-network/api-react": "1.0.0",
-    "@chia-network/core": "1.0.0",
-    "@chia-network/icons": "1.0.0",
+    "@cryptomines-network/api": "1.0.0",
+    "@cryptomines-network/api-react": "1.0.0",
+    "@cryptomines-network/core": "1.0.0",
+    "@cryptomines-network/icons": "1.0.0",
     "@lingui/macro": "4.2.1",
     "@rehooks/local-storage": "2.4.4",
     "bignumber.js": "9.0.2",
@@ -91,9 +91,9 @@
     "typescript": "4.9.5"
   },
   "peerDependencies": {
-    "@chia-network/api": "1.0.0",
-    "@chia-network/api-react": "1.0.0",
-    "@chia-network/core": "1.0.0",
+    "@cryptomines-network/api": "1.0.0",
+    "@cryptomines-network/api-react": "1.0.0",
+    "@cryptomines-network/core": "1.0.0",
     "@lingui/core": "4.2.1",
     "@lingui/react": "4.2.1",
     "@mui/icons-material": "5.11.16",

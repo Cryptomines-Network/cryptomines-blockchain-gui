@@ -1,4 +1,4 @@
-import { SyncingStatus } from '@chia-network/api';
+import { SyncingStatus } from '@cryptomines-network/api';
 
 export default function getWalletSyncingStatus(walletState) {
   const { syncing, synced } = walletState;

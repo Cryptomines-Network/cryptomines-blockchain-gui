@@ -1,5 +1,5 @@
-import { useGetBlockchainStateQuery, useGetHarvestersQuery, useGetNewFarmingInfoQuery } from '@chia-network/api-react';
-import { Flex, FormatBytes, FormatLargeNumber, CardSimple, useCurrencyCode } from '@chia-network/core';
+import { useGetBlockchainStateQuery, useGetHarvestersQuery, useGetNewFarmingInfoQuery } from '@cryptomines-network/api-react';
+import { Flex, FormatBytes, FormatLargeNumber, CardSimple, useCurrencyCode } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import BigNumber from 'bignumber.js';

@@ -1,4 +1,4 @@
-import { OfferTradeRecord } from '@chia-network/api';
+import { OfferTradeRecord } from '@cryptomines-network/api';
 import {
   ButtonLoading,
   CopyToClipboard,
@@ -8,7 +8,7 @@ import {
   useOpenDialog,
   useShowError,
   useOpenExternal,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans, t } from '@lingui/macro';
 import {
   Button,

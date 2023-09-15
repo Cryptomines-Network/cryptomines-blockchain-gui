@@ -1,5 +1,5 @@
-import { WalletType } from '@chia-network/api';
-import { useCreateOfferForIdsMutation } from '@chia-network/api-react';
+import { WalletType } from '@cryptomines-network/api';
+import { useCreateOfferForIdsMutation } from '@cryptomines-network/api-react';
 import {
   Back,
   Button,
@@ -11,7 +11,7 @@ import {
   useShowError,
   chiaToMojo,
   catToMojo,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans, t } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import BigNumber from 'bignumber.js';

@@ -1,4 +1,4 @@
-import { Button, Flex } from '@chia-network/core';
+import { Button, Flex } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Typography } from '@mui/material';
 import React from 'react';

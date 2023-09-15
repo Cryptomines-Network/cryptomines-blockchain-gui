@@ -1,4 +1,4 @@
-import { useGetKeyringStatusQuery, useMigrateKeyringMutation } from '@chia-network/api-react';
+import { useGetKeyringStatusQuery, useMigrateKeyringMutation } from '@cryptomines-network/api-react';
 import {
   Button,
   AlertDialog,
@@ -7,7 +7,7 @@ import {
   useOpenDialog,
   useValidateChangePassphraseParams,
   Suspender,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { t, Trans } from '@lingui/macro';
 import {
   Help as HelpIcon,

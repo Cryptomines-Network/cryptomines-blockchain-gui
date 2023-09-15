@@ -1,4 +1,4 @@
-import { useLocalStorage } from '@chia-network/api-react';
+import { useLocalStorage } from '@cryptomines-network/api-react';
 import { useCallback, useState, useEffect } from 'react';
 
 import compareAppVersions from '../utils/compareAppVersion';

@@ -1,4 +1,4 @@
-import { ConfirmDialog, CopyToClipboard, Flex } from '@chia-network/core';
+import { ConfirmDialog, CopyToClipboard, Flex } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Divider, Typography } from '@mui/material';
 import React from 'react';

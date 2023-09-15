@@ -1,4 +1,4 @@
-import { Button, Flex, CardStep, useCurrencyCode } from '@chia-network/core';
+import { Button, Flex, CardStep, useCurrencyCode } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

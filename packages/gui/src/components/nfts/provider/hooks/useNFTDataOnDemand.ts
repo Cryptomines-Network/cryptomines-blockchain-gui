@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo } from '@chia-network/api';
-import { useLazyGetNFTInfoQuery } from '@chia-network/api-react';
+import { type NFTInfo } from '@cryptomines-network/api';
+import { useLazyGetNFTInfoQuery } from '@cryptomines-network/api-react';
 import debug from 'debug';
 import { useState, useCallback, useMemo } from 'react';
 

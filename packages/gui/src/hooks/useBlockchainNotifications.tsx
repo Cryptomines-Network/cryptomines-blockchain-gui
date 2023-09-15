@@ -1,11 +1,11 @@
-import { SyncingStatus } from '@chia-network/api';
+import { SyncingStatus } from '@cryptomines-network/api';
 import {
   useGetNotificationsQuery,
   useDeleteNotificationsMutation,
   useLazyGetTimestampForHeightQuery,
-} from '@chia-network/api-react';
-import { ConfirmDialog, useOpenDialog, useAuth } from '@chia-network/core';
-import { useWalletState } from '@chia-network/wallets';
+} from '@cryptomines-network/api-react';
+import { ConfirmDialog, useOpenDialog, useAuth } from '@cryptomines-network/core';
+import { useWalletState } from '@cryptomines-network/wallets';
 import { Trans } from '@lingui/macro';
 import debug from 'debug';
 import { orderBy } from 'lodash';

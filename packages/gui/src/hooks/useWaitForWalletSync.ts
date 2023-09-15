@@ -1,5 +1,5 @@
-import { SyncingStatus } from '@chia-network/api';
-import { useWalletState } from '@chia-network/wallets';
+import { SyncingStatus } from '@cryptomines-network/api';
+import { useWalletState } from '@cryptomines-network/wallets';
 import { useCallback, useState, useRef, useEffect } from 'react';
 
 export default function useWaitForWalletSync() {

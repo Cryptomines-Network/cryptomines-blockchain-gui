@@ -1,5 +1,5 @@
 {
-  "name": "@chia-network/api-react",
+  "name": "@cryptomines-network/api-react",
   "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://chiablockchain.pl/)",
   "description": "Cryptomines API react store library",
   "productName": "Cryptomines Blockchain",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.22.6",
-    "@chia-network/api": "1.0.0",
+    "@cryptomines-network/api": "1.0.0",
     "bignumber.js": "9.0.2",
     "core-js": "3.20.3",
     "debug": "4.3.3",
@@ -28,7 +28,7 @@
     "regenerator-runtime": "0.13.9"
   },
   "peerDependencies": {
-    "@chia-network/api": "1.0.0",
+    "@cryptomines-network/api": "1.0.0",
     "@reduxjs/toolkit": "1.7.1",
     "react": "^17.0.0",
     "react-redux": "^7.2.6"

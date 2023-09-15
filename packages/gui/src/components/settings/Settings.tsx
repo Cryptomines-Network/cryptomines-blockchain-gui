@@ -1,5 +1,5 @@
-import { useLocalStorage } from '@chia-network/api-react';
-import { Flex, LayoutDashboardSub, Mode, useMode } from '@chia-network/core';
+import { useLocalStorage } from '@cryptomines-network/api-react';
+import { Flex, LayoutDashboardSub, Mode, useMode } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Tab, Tabs } from '@mui/material';
 import Badge from '@mui/material/Badge';

@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 
-import { useGetOfferSummaryMutation, useCheckOfferValidityMutation } from '@chia-network/api-react';
-import { isValidURL } from '@chia-network/core';
+import { useGetOfferSummaryMutation, useCheckOfferValidityMutation } from '@cryptomines-network/api-react';
+import { isValidURL } from '@cryptomines-network/core';
 import debug from 'debug';
 import React, { useState, createContext, useMemo, useCallback, type ReactNode } from 'react';
 

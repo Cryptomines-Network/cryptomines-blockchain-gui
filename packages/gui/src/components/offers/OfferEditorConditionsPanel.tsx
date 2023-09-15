@@ -1,6 +1,6 @@
-import type { Wallet } from '@chia-network/api';
-import { WalletType } from '@chia-network/api';
-import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@chia-network/api-react';
+import type { Wallet } from '@cryptomines-network/api';
+import { WalletType } from '@cryptomines-network/api';
+import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
 import {
   Amount,
   Fee,
@@ -11,7 +11,7 @@ import {
   mojoToCAT,
   mojoToCATLocaleString,
   useLocale,
-} from '@chia-network/core';
+} from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Box, Divider, IconButton, Typography } from '@mui/material';
