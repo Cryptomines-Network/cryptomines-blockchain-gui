@@ -1,6 +1,6 @@
 {
   "name": "@cryptomines-network/wallets",
-  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://chiablockchain.pl/)",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
   "description": "Cryptomines wallets Library",
   "version": "1.0.0",
   "engines": {

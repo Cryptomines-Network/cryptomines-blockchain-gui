@@ -31,7 +31,7 @@ import { NFTOfferSummary } from './NFTOfferViewer';
 import OfferSummary from './OfferSummary';
 import { offerContainsAssetOfType } from './utils';
 
-const log = debug('chia-gui:offers');
+const log = debug('cryptomines-gui:offers');
 
 /* ========================================================================== */
 
@@ -81,7 +81,7 @@ type CommonShareServiceDialogProps = CommonDialogProps & {
 
 type OfferShareServiceDialogProps = CommonOfferProps & CommonShareServiceDialogProps;
 
-const testnetDummyHost = 'offers-api-sim.chia.pl';
+const testnetDummyHost = 'offers-api-sim.cryptomines.pl';
 
 const OfferSharingProviders: {
   [key in OfferSharingService]: OfferSharingProvider;

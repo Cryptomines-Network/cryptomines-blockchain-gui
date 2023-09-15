@@ -102,7 +102,7 @@ export default function SignMessage(props: SignMessageProps) {
 
       if (missingNFTMatch || missingDIDMatch) {
         const entityPuzzleHash = missingNFTMatch ? missingNFTMatch[1] : missingDIDMatch![1];
-        const entityId = toBech32m(entityPuzzleHash, missingNFTMatch ? 'nft' : 'did:chia:');
+        const entityId = toBech32m(entityPuzzleHash, missingNFTMatch ? 'nft' : 'did:cryptomines:');
 
         if (missingNFTMatch) {
           showError(new Error(t`Unable to find NFT ${entityId}`));

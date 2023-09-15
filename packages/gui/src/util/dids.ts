@@ -3,7 +3,7 @@ import { toBech32m, fromBech32m } from '@cryptomines-network/api';
 import removeHexPrefix from './removeHexPrefix';
 
 export function didToDIDId(did: string): string {
-  return toBech32m(removeHexPrefix(did), 'did:chia:');
+  return toBech32m(removeHexPrefix(did), 'did:cryptomines:');
 }
 
 export function didFromDIDId(didId: string): string | undefined {
