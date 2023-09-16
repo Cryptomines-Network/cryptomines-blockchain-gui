@@ -33,7 +33,7 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               Plots are allocated space on your hard drive used to farm and earn Cryptomines. &nbsp;
-              <Link target="_blank" href="https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/wiki/Network-Architecture">
+              <Link target="_blank" href="https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/Network-Architecture">
                 Learn more
               </Link>
             </Trans>

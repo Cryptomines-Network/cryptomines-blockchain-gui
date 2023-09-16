@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Vault Login
-        uses: LloydMontgomeryGarmadon/actions/vault/login@main
+        uses: Cryptomines-Network/actions/vault/login@main
         with:
           vault_url: ${{ secrets.VAULT_URL }}
           role_name: github-cryptomines-blockchain-gui

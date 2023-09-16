@@ -716,19 +716,19 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Cryptomines Blockchain Wiki' }),
           click: () => {
-            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/wiki');
+            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
           click: () => {
-            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/wiki/FAQ');
+            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/FAQ');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Release Notes' }),
           click: () => {
-            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/releases');
+            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/releases');
           },
         },
         {
@@ -737,7 +737,7 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
           click: () => {
-            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/issues');
+            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/issues');
           },
         },
         {
