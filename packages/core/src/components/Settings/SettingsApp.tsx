@@ -18,7 +18,6 @@ import useOpenDialog from '../../hooks/useOpenDialog';
 import useShowError from '../../hooks/useShowError';
 import Button from '../Button';
 import Flex from '../Flex';
-import NewerAppVersionAvailable from '../LayoutDashboard/NewerAppVersionAvailable';
 import Link from '../Link';
 import LocaleToggle from '../LocaleToggle';
 import SettingsLabel from './SettingsLabel';
@@ -130,7 +129,7 @@ export default function SettingsApp(props: SettingsAppProps) {
             </Typography>
           )}
         </Flex>
-
+        </Flex>
       {children}
 
       <Flex flexDirection="column" gap={1}>
