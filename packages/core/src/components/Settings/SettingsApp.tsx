@@ -131,15 +131,6 @@ export default function SettingsApp(props: SettingsAppProps) {
           )}
         </Flex>
 
-        <Button
-          onClick={() => openDialog(<NewerAppVersionAvailable currentVersion={version!} />)}
-          variant="outlined"
-          data-testid="checkForUpdatesButton"
-        >
-          <Trans>Check for updates</Trans>
-        </Button>
-      </Flex>
-
       {children}
 
       <Flex flexDirection="column" gap={1}>

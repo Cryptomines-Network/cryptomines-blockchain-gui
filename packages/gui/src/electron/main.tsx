@@ -762,12 +762,6 @@ function getMenuTemplate() {
           },
         },
         {
-          label: i18n._(/* i18n */ { id: 'Check for Updates...' }),
-          click: () => {
-            mainWindow?.webContents.send('checkForUpdates');
-          },
-        },
-        {
           type: 'separator',
         },
         {
@@ -854,12 +848,6 @@ function getMenuTemplate() {
           openAbout();
         },
       },
-      {
-        label: i18n._(/* i18n */ { id: 'Check for updates...' }),
-        click: () => {
-          mainWindow?.webContents.send('checkForUpdates');
-        },
-      }
     );
   }
 
