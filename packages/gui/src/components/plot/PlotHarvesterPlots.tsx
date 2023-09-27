@@ -8,7 +8,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 import PlotAction from './PlotAction';
-import PlotStatus from './PlotStatus';
 
 const StyledWarningIcon = styled(WarningIcon)`
   color: ${StateColor.WARNING};
@@ -68,10 +67,6 @@ const cols = [
     field: 'filename',
     tooltip: 'filename',
     title: <Trans>Filename</Trans>,
-  },
-  {
-    field: (plot: Plot) => <PlotStatus plot={plot} />,
-    title: <Trans>Status</Trans>,
   },
   {
     field: (plot: Plot) => <PlotAction plot={plot} />,
