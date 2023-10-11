@@ -384,15 +384,8 @@ function FarmHealth() {
           <Trans>Farm Health</Trans>
         </Typography>
       </Box>
-      <Flex justifyContent="space-between" sx={indicatorStyle}>
-        <Box>
-          <Typography variant="body2" color="textSecondary">
-            <Trans>Sync status</Trans>
-          </Typography>
-          {famSyncStatus}
-        </Box>
-        {plotPassingFilterWithTooltip}
-        {missingSpsWithTooltip}
+      <Flex justifyContent="space-evenly" sx={indicatorStyle}>
+          {missingSpsWithTooltip}
         <Box>
           <Typography variant="body2">
             <Trans>Stale partials</Trans>

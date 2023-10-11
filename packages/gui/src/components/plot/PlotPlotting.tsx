@@ -6,7 +6,6 @@ import React, { useMemo } from 'react';
 import styled from 'styled-components';
 
 import PlotQueueActions from './queue/PlotQueueActions';
-import PlotQueueIndicator from './queue/PlotQueueIndicator';
 import PlotQueueSize from './queue/PlotQueueSize';
 
 export const StyledTableRow = styled(({ odd, ...rest }) => <TableRow {...rest} />)`
@@ -21,10 +20,6 @@ const cols = [
   {
     title: <Trans>Queue Name</Trans>,
     field: 'queue',
-  },
-  {
-    title: <Trans>Status</Trans>,
-    field: (queueItem) => <PlotQueueIndicator queueItem={queueItem} />,
   },
   {
     title: <Trans>Action</Trans>,
