@@ -14,7 +14,7 @@ import Mode from '../../constants/Mode';
 import useAppVersion from '../../hooks/useAppVersion';
 import useDarkMode from '../../hooks/useDarkMode';
 import useMode from '../../hooks/useMode';
-import useOpenDialog from '../../hooks/useOpenDialog';
+//import useOpenDialog from '../../hooks/useOpenDialog';
 import useShowError from '../../hooks/useShowError';
 import Button from '../Button';
 import Flex from '../Flex';
@@ -31,7 +31,7 @@ export default function SettingsApp(props: SettingsAppProps) {
 
   const [mode, setMode] = useMode();
   const showError = useShowError();
-  const openDialog = useOpenDialog();
+//  const openDialog = useOpenDialog();
   const { enable, disable, isDarkMode } = useDarkMode();
   const { version } = useAppVersion();
 

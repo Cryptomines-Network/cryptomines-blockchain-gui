@@ -100,7 +100,7 @@ function FarmHealth() {
   const { data: partialStatsOffset, isLoading: isLoadingPartialStatsOffset } = useGetPartialStatsOffsetQuery();
   const [significantLevel, setSignificantLevel] = React.useState(1); // 1%
 
-  const famSyncStatus = React.useMemo(() => {
+/**  const famSyncStatus = React.useMemo(() => {
     if (farmerStatus === FarmerStatus.SYNCHING) {
       return (
         <StateIndicator state={State.WARNING} indicator reversed>
@@ -108,6 +108,7 @@ function FarmHealth() {
         </StateIndicator>
       );
     }
+*/
 
     if (farmerStatus === FarmerStatus.NOT_AVAILABLE) {
       return (
@@ -203,7 +204,7 @@ function FarmHealth() {
     );
   }, [farmerStatus, isLoadingFilterChallengeStat, blockchainState, cumulativeBinomialProbability, significantLevel]);
 
-  const plotPassingFilterWithTooltip = React.useMemo(() => {
+/**  const plotPassingFilterWithTooltip = React.useMemo(() => {
     if (isLoadingFilterChallengeStat || !filterChallengeStat) {
       return (
         <Box>
@@ -301,7 +302,8 @@ function FarmHealth() {
     cumulativeBinomialProbability,
     resetFilterChallengeStat,
     significantLevel,
-  ]);
+  ]); 
+*/
 
   const missingSpsWithTooltip = React.useMemo(() => {
     if (isLoadingMissingSps) {
