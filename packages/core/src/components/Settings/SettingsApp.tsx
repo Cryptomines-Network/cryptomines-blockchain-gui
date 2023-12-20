@@ -14,7 +14,7 @@ import Mode from '../../constants/Mode';
 import useAppVersion from '../../hooks/useAppVersion';
 import useDarkMode from '../../hooks/useDarkMode';
 import useMode from '../../hooks/useMode';
-//import useOpenDialog from '../../hooks/useOpenDialog';
+import useOpenDialog from '../../hooks/useOpenDialog';
 import useShowError from '../../hooks/useShowError';
 import Button from '../Button';
 import Flex from '../Flex';
