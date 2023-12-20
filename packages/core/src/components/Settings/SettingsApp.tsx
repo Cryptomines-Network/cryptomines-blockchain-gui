@@ -31,7 +31,7 @@ export default function SettingsApp(props: SettingsAppProps) {
 
   const [mode, setMode] = useMode();
   const showError = useShowError();
-//  const openDialog = useOpenDialog();
+  //  const openDialog = useOpenDialog();
   const { enable, disable, isDarkMode } = useDarkMode();
   const { version } = useAppVersion();
 

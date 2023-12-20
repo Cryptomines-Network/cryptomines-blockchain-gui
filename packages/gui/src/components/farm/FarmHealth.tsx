@@ -109,7 +109,6 @@ function FarmHealth() {
       );
     }
 
-
     if (farmerStatus === FarmerStatus.NOT_AVAILABLE) {
       return (
         <StateIndicator state={State.ERROR} indicator reversed>
@@ -302,8 +301,7 @@ function FarmHealth() {
     cumulativeBinomialProbability,
     resetFilterChallengeStat,
     significantLevel,
-  ]); 
-
+  ]);
 
   const missingSpsWithTooltip = React.useMemo(() => {
     if (isLoadingMissingSps) {
