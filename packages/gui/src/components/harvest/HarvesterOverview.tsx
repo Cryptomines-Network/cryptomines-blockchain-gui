@@ -1,4 +1,8 @@
-import { useGetBlockchainStateQuery, useGetHarvestersQuery, useGetNewFarmingInfoQuery } from '@cryptomines-network/api-react';
+import {
+  useGetBlockchainStateQuery,
+  useGetHarvestersQuery,
+  useGetNewFarmingInfoQuery,
+} from '@cryptomines-network/api-react';
 import { Flex, FormatBytes, FormatLargeNumber, CardSimple, useCurrencyCode } from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';

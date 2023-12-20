@@ -140,8 +140,8 @@ export default function SettingsIntegration() {
           </SettingsSection>
           <SettingsText>
             <Trans>
-              WalletConnect enables a decentralized app on the Cryptomines blockchain to communicate and make requests directly
-              to a Cryptomines wallet.
+              WalletConnect enables a decentralized app on the Cryptomines blockchain to communicate and make requests
+              directly to a Cryptomines wallet.
             </Trans>
           </SettingsText>
         </Flex>

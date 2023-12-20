@@ -1,6 +1,11 @@
 import { NFTInfo } from '@cryptomines-network/api';
 import type { Wallet } from '@cryptomines-network/api';
-import { useGetDIDsQuery, useGetNFTWallets, useSetNFTDIDMutation, useLocalStorage } from '@cryptomines-network/api-react';
+import {
+  useGetDIDsQuery,
+  useGetNFTWallets,
+  useSetNFTDIDMutation,
+  useLocalStorage,
+} from '@cryptomines-network/api-react';
 import {
   AlertDialog,
   Button,

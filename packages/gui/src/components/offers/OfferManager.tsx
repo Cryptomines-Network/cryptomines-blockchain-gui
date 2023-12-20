@@ -326,8 +326,8 @@ export function OfferManager() {
                       </Typography>
                       <Typography variant="body1" color="textSecondary">
                         <Trans>
-                          Create a file that you can use to trade KOP, Cryptomines Asset Tokens, or NFTs with no counter-party
-                          risk.
+                          Create a file that you can use to trade KOP, Cryptomines Asset Tokens, or NFTs with no
+                          counter-party risk.
                         </Trans>
                       </Typography>
                     </Flex>

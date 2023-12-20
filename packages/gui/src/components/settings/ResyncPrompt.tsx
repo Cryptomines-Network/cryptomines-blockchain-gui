@@ -39,8 +39,9 @@ export default function ResyncPrompt(props: Props) {
       <DialogContent>
         <DialogContentText>
           <Trans>
-            To initiate a wallet resync, all Cryptomines services must first be shut down. After shutting down, you will be
-            required to restart Cryptomines to begin the resyncing process. Are you sure you want to shut down and resync?
+            To initiate a wallet resync, all Cryptomines services must first be shut down. After shutting down, you will
+            be required to restart Cryptomines to begin the resyncing process. Are you sure you want to shut down and
+            resync?
           </Trans>
         </DialogContentText>
       </DialogContent>

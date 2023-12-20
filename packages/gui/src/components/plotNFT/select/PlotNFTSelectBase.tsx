@@ -1,4 +1,13 @@
-import { Button, Flex, Loading, CardStep, RadioGroup, EstimatedFee, FeeTxType, TextField } from '@cryptomines-network/core';
+import {
+  Button,
+  Flex,
+  Loading,
+  CardStep,
+  RadioGroup,
+  EstimatedFee,
+  FeeTxType,
+  TextField,
+} from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Grid, FormControl, FormControlLabel, Typography, Radio, Collapse } from '@mui/material';
 import React, { ReactNode } from 'react';

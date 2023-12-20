@@ -1,4 +1,8 @@
-import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery, useGetCurrentAddressQuery } from '@cryptomines-network/api-react';
+import {
+  usePwAbsorbRewardsMutation,
+  useGetPlotNFTsQuery,
+  useGetCurrentAddressQuery,
+} from '@cryptomines-network/api-react';
 import {
   UnitFormat,
   CardStep,

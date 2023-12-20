@@ -385,7 +385,7 @@ function FarmHealth() {
         </Typography>
       </Box>
       <Flex justifyContent="space-evenly" sx={indicatorStyle}>
-          {missingSpsWithTooltip}
+        {missingSpsWithTooltip}
         <Box>
           <Typography variant="body2">
             <Trans>Stale partials</Trans>

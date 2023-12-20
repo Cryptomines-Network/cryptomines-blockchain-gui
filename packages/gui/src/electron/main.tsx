@@ -847,7 +847,7 @@ function getMenuTemplate() {
         click() {
           openAbout();
         },
-      },
+      }
     );
   }
 
