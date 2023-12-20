@@ -33,8 +33,8 @@ function WarningDialog(props: DialogProps) {
           <Flex flexDirection="column" gap={1}>
             <Typography variant="body2" color="textSecondary">
               <Trans>
-                The Cryptomines application and its services are using different versions. Some functionality may not be behave
-                properly as a result.
+                The Cryptomines application and its services are using different versions. Some functionality may not be
+                behave properly as a result.
                 <br />
                 <br />
                 Cryptomines services version: {backV}

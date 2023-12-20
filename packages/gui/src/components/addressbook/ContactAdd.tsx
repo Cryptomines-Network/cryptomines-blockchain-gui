@@ -1,5 +1,13 @@
 import { fromBech32m } from '@cryptomines-network/api';
-import { AddressBookContext, Color, EmojiAndColorPicker, Form, TextField, TooltipIcon, Flex } from '@cryptomines-network/core';
+import {
+  AddressBookContext,
+  Color,
+  EmojiAndColorPicker,
+  Form,
+  TextField,
+  TooltipIcon,
+  Flex,
+} from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Button, IconButton, Typography, Box } from '@mui/material';

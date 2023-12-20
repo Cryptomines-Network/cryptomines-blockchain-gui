@@ -24,8 +24,8 @@ export default function useGetLatestVersionFromWebsite(): UseGetLatestVersionFro
   const [blogPath, setBlogPath] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [latestVersionURL] = useLocalStorage<string>(
-    'latestVersionURL',
-//    'https://download.chia.net/latest/latest.json'
+    'latestVersionURL'
+    //    'https://download.chia.net/latest/latest.json'
   );
   const [skipVersions, setSkipVersions] = useLocalStorage<string[]>('skipVersions', []);
   const { version: appVersion } = useAppVersion();

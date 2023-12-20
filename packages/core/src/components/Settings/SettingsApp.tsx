@@ -129,7 +129,7 @@ export default function SettingsApp(props: SettingsAppProps) {
             </Typography>
           )}
         </Flex>
-        </Flex>
+      </Flex>
       {children}
 
       <Flex flexDirection="column" gap={1}>
