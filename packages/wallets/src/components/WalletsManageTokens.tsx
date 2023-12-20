@@ -1,5 +1,14 @@
 import { WalletType } from '@cryptomines-network/api';
-import { Button, Color, useColorModeValue, Spinner, Flex, Tooltip, useTrans, ScrollbarFlex } from '@cryptomines-network/core';
+import {
+  Button,
+  Color,
+  useColorModeValue,
+  Spinner,
+  Flex,
+  Tooltip,
+  useTrans,
+  ScrollbarFlex,
+} from '@cryptomines-network/core';
 import { Trans } from '@lingui/macro';
 import { Add, KeyboardArrowDown, KeyboardArrowUp } from '@mui/icons-material';
 import SearchIcon from '@mui/icons-material/Search';
