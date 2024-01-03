@@ -40,7 +40,7 @@ export default function MyContact() {
         const element = key;
         element.color = themeList[key.fingerprint].walletKeyTheme
           ? themeList[key.fingerprint].walletKeyTheme.color
-          : 'green';
+          : 'purple';
         element.emoji = themeList[key.fingerprint].walletKeyTheme
           ? themeList[key.fingerprint].walletKeyTheme.emoji
           : null;

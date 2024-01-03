@@ -152,7 +152,7 @@ export default function VerifyMessageImport(props: VerifyMessageImportProps) {
           </Typography>
           <Typography color="textSecondary" textAlign="center">
             <Trans>
-              or <span style={{ color: Color.Green[400] }}>browse</span> on your computer
+              or <span style={{ color: Color.Purple[400] }}>browse</span> on your computer
             </Trans>
           </Typography>
         </Flex>

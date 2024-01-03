@@ -1,7 +1,7 @@
 import Color from './Color';
 
 enum StateColor {
-  SUCCESS = Color.Green[500],
+  SUCCESS = Color.Purple[500],
   WARNING = Color.Orange[500],
   ERROR = Color.Red[500],
 }

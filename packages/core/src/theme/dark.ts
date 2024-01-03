@@ -67,9 +67,9 @@ export default createTheme({
         accent: Color.Lime[800],
       },
       green: {
-        main: Color.Green[300],
-        border: Color.Green[700],
-        accent: Color.Green[800],
+        main: Color.Purple[300],
+        border: Color.Purple[700],
+        accent: Color.Purple[800],
       },
       aqua: {
         main: Color.Aqua[300],

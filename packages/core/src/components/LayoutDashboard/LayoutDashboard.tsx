@@ -79,7 +79,7 @@ export default function LayoutDashboard(props: LayoutDashboardProps) {
   const isDark = theme.palette.mode === 'dark';
   const [walletKeyTheme, setWalletKeyTheme] = useFingerprintSettings<WalletKeyTheme>(fingerprint, 'walletKeyTheme', {
     emoji: ``,
-    color: 'green',
+    color: 'purple',
   });
   const { appVersion, latestVersion, newVersionAvailable, isVersionSkipped, addVersionToSkip, downloadUrl, blogUrl } =
     useGetLatestVersionFromWebsite();

@@ -13,7 +13,7 @@ export default {
       default: Color.Neutral[50],
     },
     primary: {
-      main: Color.Green[500],
+      main: Color.Purple[500],
       contrastText: Color.Neutral[50],
     },
     secondary: {
@@ -32,12 +32,12 @@ export default {
       dark: Color.Neutral[700],
     },
     sidebarBackground: {
-      main: Color.Green[50],
+      main: Color.Purple[50],
       dark: Color.Neutral[600],
     },
     sidebarIconSelected: {
-      main: Color.Green[800],
-      dark: Color.Green[500],
+      main: Color.Purple[800],
+      dark: Color.Purple[500],
     },
     sidebarIcon: {
       main: Color.Neutral[500],

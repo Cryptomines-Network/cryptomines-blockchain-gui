@@ -817,7 +817,7 @@ export default [
   { word: 'grass', value: 815 },
   { word: 'gravity', value: 816 },
   { word: 'great', value: 817 },
-  { word: 'green', value: 818 },
+  { word: 'purple', value: 818 },
   { word: 'grid', value: 819 },
   { word: 'grief', value: 820 },
   { word: 'grit', value: 821 },
